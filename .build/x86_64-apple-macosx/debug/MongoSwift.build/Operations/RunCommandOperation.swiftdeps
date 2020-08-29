@@ -1,0 +1,256 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RunCommandOptions"
+- "RunCommandOperation"
+provides-nominal:
+- "10MongoSwift17RunCommandOptionsV"
+- "10MongoSwift19RunCommandOperationV"
+provides-member:
+- ["10MongoSwift17RunCommandOptionsV", ""]
+- ["10MongoSwift19RunCommandOperationV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "ClientSession"
+- "CodingKey"
+- "Connection"
+- "Document"
+- "Encodable"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "MongoDatabase"
+- "Operation"
+- "ReadConcern"
+- "ReadPreference"
+- "RunCommandOperation"
+- "RunCommandOptions"
+- "String"
+- "StringLiteralType"
+- "WriteConcern"
+- !private "_findStringSwitchCase"
+- !private "bson_error_t"
+- !private "encodeOptions"
+- !private "extractMongoError"
+- !private "mongoc_database_command_with_opts"
+- !private "withMutableBSONPointer"
+- !private "~="
+depends-member:
+- !private ["10MongoSwift9BSONValueP", "_bson"]
+- !private ["10MongoSwift9BSONValueP", "init"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", "_bson"]
+- !private ["Sl", "init"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_bson"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["Se", "_bson"]
+- !private ["Se", "init"]
+- !private ["10MongoSwift8DocumentV", "_bson"]
+- !private ["10MongoSwift8DocumentV", "deinit"]
+- !private ["10MongoSwift8DocumentV", "init"]
+- ["SE", ""]
+- !private ["SE", "_bson"]
+- !private ["SE", "_findStringSwitchCase"]
+- ["SE", "encode"]
+- !private ["SE", "init"]
+- !private ["SE", "readConcern"]
+- !private ["SE", "readPreference"]
+- !private ["SE", "writeConcern"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- !private ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_bson"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "_readPreference"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "_bson"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- !private ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_bson"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- !private ["10MongoSwift0A8DatabaseV", "withMongocDatabase"]
+- !private ["10MongoSwift9OperationP", "Document"]
+- ["10MongoSwift9OperationP", "OperationResult"]
+- ["10MongoSwift9OperationP", ""]
+- ["10MongoSwift9OperationP", "_Default_OperationResult"]
+- !private ["10MongoSwift9OperationP", "bson_error_t"]
+- !private ["10MongoSwift9OperationP", "command"]
+- ["10MongoSwift9OperationP", "connectionStrategy"]
+- !private ["10MongoSwift9OperationP", "database"]
+- !private ["10MongoSwift9OperationP", "encodeOptions"]
+- ["10MongoSwift9OperationP", "execute"]
+- !private ["10MongoSwift9OperationP", "extractMongoError"]
+- !private ["10MongoSwift9OperationP", "mongoc_database_command_with_opts"]
+- !private ["10MongoSwift9OperationP", "options"]
+- !private ["10MongoSwift9OperationP", "withMutableBSONPointer"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- !private ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- ["10MongoSwift11ReadConcernV", "deinit"]
+- !private ["10MongoSwift14ReadPreferenceC", "_readPreference"]
+- ["10MongoSwift19RunCommandOperationV", "ClientSession"]
+- ["10MongoSwift19RunCommandOperationV", "Connection"]
+- ["10MongoSwift19RunCommandOperationV", "Document"]
+- ["10MongoSwift19RunCommandOperationV", "MongoDatabase"]
+- ["10MongoSwift19RunCommandOperationV", "OperationResult"]
+- ["10MongoSwift19RunCommandOperationV", "RunCommandOptions"]
+- ["10MongoSwift19RunCommandOperationV", "_Default_OperationResult"]
+- !private ["10MongoSwift19RunCommandOperationV", "bson_error_t"]
+- !private ["10MongoSwift19RunCommandOperationV", "command"]
+- ["10MongoSwift19RunCommandOperationV", "connectionStrategy"]
+- !private ["10MongoSwift19RunCommandOperationV", "database"]
+- ["10MongoSwift19RunCommandOperationV", "deinit"]
+- !private ["10MongoSwift19RunCommandOperationV", "encodeOptions"]
+- ["10MongoSwift19RunCommandOperationV", "execute"]
+- !private ["10MongoSwift19RunCommandOperationV", "extractMongoError"]
+- ["10MongoSwift19RunCommandOperationV", "init"]
+- !private ["10MongoSwift19RunCommandOperationV", "mongoc_database_command_with_opts"]
+- !private ["10MongoSwift19RunCommandOperationV", "options"]
+- !private ["10MongoSwift19RunCommandOperationV", "withMutableBSONPointer"]
+- ["10MongoSwift17RunCommandOptionsV", "CodingKey"]
+- !private ["10MongoSwift17RunCommandOptionsV", "CodingKeys"]
+- ["10MongoSwift17RunCommandOptionsV", "ReadConcern"]
+- ["10MongoSwift17RunCommandOptionsV", "ReadPreference"]
+- ["10MongoSwift17RunCommandOptionsV", "String"]
+- ["10MongoSwift17RunCommandOptionsV", "WriteConcern"]
+- !private ["10MongoSwift17RunCommandOptionsV", "_findStringSwitchCase"]
+- ["10MongoSwift17RunCommandOptionsV", "deinit"]
+- ["10MongoSwift17RunCommandOptionsV", "encode"]
+- ["10MongoSwift17RunCommandOptionsV", "init"]
+- ["10MongoSwift17RunCommandOptionsV", "readConcern"]
+- ["10MongoSwift17RunCommandOptionsV", "readPreference"]
+- ["10MongoSwift17RunCommandOptionsV", "writeConcern"]
+- !private ["ST", "_bson"]
+- !private ["ST", "init"]
+- ["10MongoSwift12WriteConcernV", "deinit"]
+- !private ["So13_bson_error_tV", "init"]
+depends-nominal:
+- !private "10MongoSwift9BSONValueP"
+- "s9CodingKeyP"
+- !private "Sl"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "10MongoSwift8DocumentV"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "10MongoSwift0A8DatabaseV"
+- "10MongoSwift9OperationP"
+- "SY"
+- "10MongoSwift11ReadConcernV"
+- !private "10MongoSwift14ReadPreferenceC"
+- "10MongoSwift19RunCommandOperationV"
+- "10MongoSwift17RunCommandOptionsV"
+- !private "ST"
+- "10MongoSwift12WriteConcernV"
+- !private "So13_bson_error_tV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-mongoc/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-bson/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a2d950246b0f3c4f9cd81437c05a5b6e"

@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "9110955221cc04953075fd74a192b5de"
+build_time: [1598715094, 474756000]
+inputs:
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOPriorityQueue/Heap.swift": [1598714933, 899600367]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOPriorityQueue/PriorityQueue.swift": [1598714933, 899855836]

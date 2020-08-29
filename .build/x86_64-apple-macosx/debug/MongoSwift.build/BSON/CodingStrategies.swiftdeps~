@@ -1,0 +1,221 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CodingStrategyProvider"
+- "BSONCoderOptions"
+- "DateCodingStrategy"
+- "UUIDCodingStrategy"
+- "DataCodingStrategy"
+provides-nominal:
+- "10MongoSwift22CodingStrategyProviderP"
+- "10MongoSwift16BSONCoderOptionsV"
+- "10MongoSwift18DateCodingStrategyO"
+- "10MongoSwift18UUIDCodingStrategyO"
+- "10MongoSwift18DataCodingStrategyO"
+provides-member:
+- ["10MongoSwift22CodingStrategyProviderP", ""]
+- ["10MongoSwift16BSONCoderOptionsV", ""]
+- ["10MongoSwift18DateCodingStrategyO", ""]
+- ["10MongoSwift18UUIDCodingStrategyO", ""]
+- ["10MongoSwift18DataCodingStrategyO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "BSONCoderOptions"
+- "BSONDecoder"
+- "BSONEncoder"
+- "CodingStrategyProvider"
+- "Data"
+- "DataCodingStrategy"
+- "Date"
+- "DateCodingStrategy"
+- "DateFormatter"
+- "Decoder"
+- "Encoder"
+- "RawRepresentable"
+- "UUIDCodingStrategy"
+- "Void"
+- !private "fatalError"
+depends-member:
+- ["10MongoSwift16BSONCoderOptionsV", "DataCodingStrategy"]
+- ["10MongoSwift16BSONCoderOptionsV", "DateCodingStrategy"]
+- ["10MongoSwift16BSONCoderOptionsV", "UUIDCodingStrategy"]
+- ["10MongoSwift16BSONCoderOptionsV", "dataCodingStrategy"]
+- ["10MongoSwift16BSONCoderOptionsV", "dateCodingStrategy"]
+- ["10MongoSwift16BSONCoderOptionsV", "deinit"]
+- ["10MongoSwift16BSONCoderOptionsV", "init"]
+- ["10MongoSwift16BSONCoderOptionsV", "uuidCodingStrategy"]
+- ["10MongoSwift11BSONDecoderC", "DataDecodingStrategy"]
+- ["10MongoSwift11BSONDecoderC", "DateDecodingStrategy"]
+- ["10MongoSwift11BSONDecoderC", "UUIDDecodingStrategy"]
+- ["10MongoSwift11BSONEncoderC", "DataEncodingStrategy"]
+- ["10MongoSwift11BSONEncoderC", "DateEncodingStrategy"]
+- ["10MongoSwift11BSONEncoderC", "UUIDEncodingStrategy"]
+- ["10MongoSwift22CodingStrategyProviderP", "DataCodingStrategy"]
+- ["10MongoSwift22CodingStrategyProviderP", "DateCodingStrategy"]
+- ["10MongoSwift22CodingStrategyProviderP", "UUIDCodingStrategy"]
+- ["10MongoSwift22CodingStrategyProviderP", ""]
+- ["10MongoSwift22CodingStrategyProviderP", "dataCodingStrategy"]
+- ["10MongoSwift22CodingStrategyProviderP", "dateCodingStrategy"]
+- ["10MongoSwift22CodingStrategyProviderP", "uuidCodingStrategy"]
+- ["10MongoSwift18DataCodingStrategyO", "BSONDecoder"]
+- ["10MongoSwift18DataCodingStrategyO", "BSONEncoder"]
+- ["10MongoSwift18DataCodingStrategyO", "Data"]
+- ["10MongoSwift18DataCodingStrategyO", "Decoder"]
+- ["10MongoSwift18DataCodingStrategyO", "Encoder"]
+- ["10MongoSwift18DataCodingStrategyO", "RawValue"]
+- ["10MongoSwift18DataCodingStrategyO", "Void"]
+- ["10MongoSwift18DataCodingStrategyO", "base64"]
+- ["10MongoSwift18DataCodingStrategyO", "binary"]
+- ["10MongoSwift18DataCodingStrategyO", "custom"]
+- ["10MongoSwift18DataCodingStrategyO", "deferredToData"]
+- ["10MongoSwift18DataCodingStrategyO", "deinit"]
+- ["10MongoSwift18DataCodingStrategyO", "init"]
+- ["10MongoSwift18DataCodingStrategyO", "rawValue"]
+- ["10MongoSwift11BSONDecoderC20DataDecodingStrategyO", "base64"]
+- ["10MongoSwift11BSONDecoderC20DataDecodingStrategyO", "binary"]
+- ["10MongoSwift11BSONDecoderC20DataDecodingStrategyO", "custom"]
+- ["10MongoSwift11BSONDecoderC20DataDecodingStrategyO", "deferredToData"]
+- ["10MongoSwift11BSONEncoderC20DataEncodingStrategyO", "base64"]
+- ["10MongoSwift11BSONEncoderC20DataEncodingStrategyO", "binary"]
+- ["10MongoSwift11BSONEncoderC20DataEncodingStrategyO", "custom"]
+- ["10MongoSwift11BSONEncoderC20DataEncodingStrategyO", "deferredToData"]
+- ["10MongoSwift18DateCodingStrategyO", "BSONDecoder"]
+- ["10MongoSwift18DateCodingStrategyO", "BSONEncoder"]
+- ["10MongoSwift18DateCodingStrategyO", "Date"]
+- ["10MongoSwift18DateCodingStrategyO", "DateFormatter"]
+- ["10MongoSwift18DateCodingStrategyO", "Decoder"]
+- ["10MongoSwift18DateCodingStrategyO", "Encoder"]
+- ["10MongoSwift18DateCodingStrategyO", "RawValue"]
+- ["10MongoSwift18DateCodingStrategyO", "Void"]
+- ["10MongoSwift18DateCodingStrategyO", "bsonDateTime"]
+- ["10MongoSwift18DateCodingStrategyO", "custom"]
+- ["10MongoSwift18DateCodingStrategyO", "deferredToDate"]
+- ["10MongoSwift18DateCodingStrategyO", "deinit"]
+- !private ["10MongoSwift18DateCodingStrategyO", "fatalError"]
+- ["10MongoSwift18DateCodingStrategyO", "formatted"]
+- ["10MongoSwift18DateCodingStrategyO", "init"]
+- ["10MongoSwift18DateCodingStrategyO", "iso8601"]
+- ["10MongoSwift18DateCodingStrategyO", "millisecondsSince1970"]
+- ["10MongoSwift18DateCodingStrategyO", "rawValue"]
+- ["10MongoSwift18DateCodingStrategyO", "secondsSince1970"]
+- ["10MongoSwift11BSONDecoderC20DateDecodingStrategyO", "bsonDateTime"]
+- ["10MongoSwift11BSONDecoderC20DateDecodingStrategyO", "custom"]
+- ["10MongoSwift11BSONDecoderC20DateDecodingStrategyO", "deferredToDate"]
+- ["10MongoSwift11BSONDecoderC20DateDecodingStrategyO", "formatted"]
+- ["10MongoSwift11BSONDecoderC20DateDecodingStrategyO", "iso8601"]
+- ["10MongoSwift11BSONDecoderC20DateDecodingStrategyO", "millisecondsSince1970"]
+- ["10MongoSwift11BSONDecoderC20DateDecodingStrategyO", "secondsSince1970"]
+- ["10MongoSwift11BSONEncoderC20DateEncodingStrategyO", "bsonDateTime"]
+- ["10MongoSwift11BSONEncoderC20DateEncodingStrategyO", "custom"]
+- ["10MongoSwift11BSONEncoderC20DateEncodingStrategyO", "deferredToDate"]
+- ["10MongoSwift11BSONEncoderC20DateEncodingStrategyO", "formatted"]
+- ["10MongoSwift11BSONEncoderC20DateEncodingStrategyO", "iso8601"]
+- ["10MongoSwift11BSONEncoderC20DateEncodingStrategyO", "millisecondsSince1970"]
+- ["10MongoSwift11BSONEncoderC20DateEncodingStrategyO", "secondsSince1970"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "binary"]
+- ["SQ", "deferredToUUID"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "binary"]
+- ["SH", "deferredToUUID"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- !private ["s6HasherV", "combine"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_rawHashValue"]
+- ["SY", "base64"]
+- ["SY", "binary"]
+- ["SY", "bsonDateTime"]
+- ["SY", "custom"]
+- ["SY", "deferredToData"]
+- ["SY", "deferredToDate"]
+- ["SY", "deferredToUUID"]
+- !private ["SY", "fatalError"]
+- ["SY", "formatted"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "iso8601"]
+- ["SY", "millisecondsSince1970"]
+- ["SY", "rawValue"]
+- ["SY", "secondsSince1970"]
+- ["10MongoSwift18UUIDCodingStrategyO", "=="]
+- ["10MongoSwift18UUIDCodingStrategyO", "BSONDecoder"]
+- ["10MongoSwift18UUIDCodingStrategyO", "BSONEncoder"]
+- ["10MongoSwift18UUIDCodingStrategyO", "RawValue"]
+- ["10MongoSwift18UUIDCodingStrategyO", "__derived_enum_equals"]
+- ["10MongoSwift18UUIDCodingStrategyO", "_rawHashValue"]
+- ["10MongoSwift18UUIDCodingStrategyO", "binary"]
+- ["10MongoSwift18UUIDCodingStrategyO", "deferredToUUID"]
+- ["10MongoSwift18UUIDCodingStrategyO", "deinit"]
+- ["10MongoSwift18UUIDCodingStrategyO", "hash"]
+- ["10MongoSwift18UUIDCodingStrategyO", "hashValue"]
+- ["10MongoSwift18UUIDCodingStrategyO", "init"]
+- ["10MongoSwift18UUIDCodingStrategyO", "rawValue"]
+- ["10MongoSwift11BSONDecoderC20UUIDDecodingStrategyO", "binary"]
+- ["10MongoSwift11BSONDecoderC20UUIDDecodingStrategyO", "deferredToUUID"]
+- ["10MongoSwift11BSONEncoderC20UUIDEncodingStrategyO", "binary"]
+- ["10MongoSwift11BSONEncoderC20UUIDEncodingStrategyO", "deferredToUUID"]
+depends-nominal:
+- "10MongoSwift16BSONCoderOptionsV"
+- "10MongoSwift11BSONDecoderC"
+- "10MongoSwift11BSONEncoderC"
+- "10MongoSwift22CodingStrategyProviderP"
+- "10MongoSwift18DataCodingStrategyO"
+- "10MongoSwift11BSONDecoderC20DataDecodingStrategyO"
+- "10MongoSwift11BSONEncoderC20DataEncodingStrategyO"
+- "10MongoSwift18DateCodingStrategyO"
+- "10MongoSwift11BSONDecoderC20DateDecodingStrategyO"
+- "10MongoSwift11BSONEncoderC20DateEncodingStrategyO"
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- "SY"
+- "10MongoSwift18UUIDCodingStrategyO"
+- "10MongoSwift11BSONDecoderC20UUIDDecodingStrategyO"
+- "10MongoSwift11BSONEncoderC20UUIDEncodingStrategyO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-mongoc/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-bson/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f82d37b2a1efc382c9c56b8d09d1726f"

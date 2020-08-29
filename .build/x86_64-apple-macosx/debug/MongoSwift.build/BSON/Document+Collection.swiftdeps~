@@ -1,0 +1,365 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "10MongoSwift8DocumentV"
+provides-member:
+- ["10MongoSwift8DocumentV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "+"
+- !private "-"
+- !private "..."
+- "Collection"
+- "Document"
+- !private "DocumentIterator"
+- "Int"
+- "Range"
+- !private "StringLiteralType"
+- !private "fatalError"
+- !private "~="
+depends-member:
+- !private ["10MongoSwift9BSONValueP", "DocumentIterator"]
+- ["10MongoSwift9BSONValueP", "Element"]
+- ["10MongoSwift9BSONValueP", "Index"]
+- ["10MongoSwift9BSONValueP", "Indices"]
+- ["10MongoSwift9BSONValueP", "Iterator"]
+- ["10MongoSwift9BSONValueP", "SubSequence"]
+- ["10MongoSwift9BSONValueP", "_Default_Element"]
+- ["10MongoSwift9BSONValueP", "_Default_Indices"]
+- ["10MongoSwift9BSONValueP", "_Default_Iterator"]
+- ["10MongoSwift9BSONValueP", "_customIndexOfEquatableElement"]
+- ["10MongoSwift9BSONValueP", "_customLastIndexOfEquatableElement"]
+- ["10MongoSwift9BSONValueP", "_failEarlyRangeCheck"]
+- ["10MongoSwift9BSONValueP", "count"]
+- ["10MongoSwift9BSONValueP", "distance"]
+- ["10MongoSwift9BSONValueP", "endIndex"]
+- !private ["10MongoSwift9BSONValueP", "failIndexCheck"]
+- !private ["10MongoSwift9BSONValueP", "fatalError"]
+- ["10MongoSwift9BSONValueP", "formIndex"]
+- ["10MongoSwift9BSONValueP", "index"]
+- ["10MongoSwift9BSONValueP", "indices"]
+- ["10MongoSwift9BSONValueP", "isEmpty"]
+- ["10MongoSwift9BSONValueP", "makeIterator"]
+- ["10MongoSwift9BSONValueP", "startIndex"]
+- ["10MongoSwift9BSONValueP", "subscript"]
+- !private ["SK", "lowerBound"]
+- !private ["SK", "upperBound"]
+- !private ["Sl", "DocumentIterator"]
+- ["Sl", "Element"]
+- ["Sl", "Index"]
+- ["Sl", "Indices"]
+- ["Sl", "Iterator"]
+- ["Sl", "SubSequence"]
+- ["Sl", ""]
+- ["Sl", "_Default_Element"]
+- ["Sl", "_Default_Indices"]
+- ["Sl", "_Default_Iterator"]
+- ["Sl", "_customIndexOfEquatableElement"]
+- ["Sl", "_customLastIndexOfEquatableElement"]
+- ["Sl", "_failEarlyRangeCheck"]
+- ["Sl", "count"]
+- ["Sl", "distance"]
+- ["Sl", "endIndex"]
+- !private ["Sl", "failIndexCheck"]
+- !private ["Sl", "fatalError"]
+- ["Sl", "formIndex"]
+- ["Sl", "index"]
+- ["Sl", "indices"]
+- ["Sl", "isEmpty"]
+- !private ["Sl", "lowerBound"]
+- ["Sl", "makeIterator"]
+- ["Sl", "startIndex"]
+- ["Sl", "subscript"]
+- !private ["Sl", "upperBound"]
+- !private ["s28CustomDebugStringConvertibleP", "lowerBound"]
+- !private ["s28CustomDebugStringConvertibleP", "upperBound"]
+- !private ["s17CustomReflectableP", "lowerBound"]
+- !private ["s17CustomReflectableP", "upperBound"]
+- !private ["s23CustomStringConvertibleP", "DocumentIterator"]
+- ["s23CustomStringConvertibleP", "Element"]
+- ["s23CustomStringConvertibleP", "Index"]
+- ["s23CustomStringConvertibleP", "Indices"]
+- ["s23CustomStringConvertibleP", "Iterator"]
+- ["s23CustomStringConvertibleP", "SubSequence"]
+- ["s23CustomStringConvertibleP", "_Default_Element"]
+- ["s23CustomStringConvertibleP", "_Default_Indices"]
+- ["s23CustomStringConvertibleP", "_Default_Iterator"]
+- ["s23CustomStringConvertibleP", "_customIndexOfEquatableElement"]
+- ["s23CustomStringConvertibleP", "_customLastIndexOfEquatableElement"]
+- ["s23CustomStringConvertibleP", "_failEarlyRangeCheck"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "distance"]
+- ["s23CustomStringConvertibleP", "endIndex"]
+- !private ["s23CustomStringConvertibleP", "failIndexCheck"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- ["s23CustomStringConvertibleP", "formIndex"]
+- ["s23CustomStringConvertibleP", "index"]
+- ["s23CustomStringConvertibleP", "indices"]
+- ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "lowerBound"]
+- ["s23CustomStringConvertibleP", "makeIterator"]
+- ["s23CustomStringConvertibleP", "startIndex"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "upperBound"]
+- !private ["Se", "DocumentIterator"]
+- ["Se", "Element"]
+- ["Se", "Index"]
+- ["Se", "Indices"]
+- ["Se", "Iterator"]
+- ["Se", "SubSequence"]
+- ["Se", "_Default_Element"]
+- ["Se", "_Default_Indices"]
+- ["Se", "_Default_Iterator"]
+- ["Se", "_customIndexOfEquatableElement"]
+- ["Se", "_customLastIndexOfEquatableElement"]
+- ["Se", "_failEarlyRangeCheck"]
+- ["Se", "count"]
+- ["Se", "distance"]
+- ["Se", "endIndex"]
+- !private ["Se", "failIndexCheck"]
+- !private ["Se", "fatalError"]
+- ["Se", "formIndex"]
+- ["Se", "index"]
+- ["Se", "indices"]
+- ["Se", "isEmpty"]
+- !private ["Se", "lowerBound"]
+- ["Se", "makeIterator"]
+- ["Se", "startIndex"]
+- ["Se", "subscript"]
+- !private ["Se", "upperBound"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["10MongoSwift8DocumentV", "Document"]
+- !private ["10MongoSwift8DocumentV", "DocumentIterator"]
+- ["10MongoSwift8DocumentV", "Element"]
+- ["10MongoSwift8DocumentV", "Index"]
+- ["10MongoSwift8DocumentV", "Indices"]
+- ["10MongoSwift8DocumentV", "Int"]
+- ["10MongoSwift8DocumentV", "Iterator"]
+- ["10MongoSwift8DocumentV", "KeyValuePair"]
+- ["10MongoSwift8DocumentV", "Range"]
+- ["10MongoSwift8DocumentV", "SubSequence"]
+- ["10MongoSwift8DocumentV", "_Default_Element"]
+- ["10MongoSwift8DocumentV", "_Default_Indices"]
+- ["10MongoSwift8DocumentV", "_Default_Iterator"]
+- ["10MongoSwift8DocumentV", "_customIndexOfEquatableElement"]
+- ["10MongoSwift8DocumentV", "_customLastIndexOfEquatableElement"]
+- ["10MongoSwift8DocumentV", "_failEarlyRangeCheck"]
+- ["10MongoSwift8DocumentV", "count"]
+- ["10MongoSwift8DocumentV", "deinit"]
+- ["10MongoSwift8DocumentV", "distance"]
+- ["10MongoSwift8DocumentV", "endIndex"]
+- !private ["10MongoSwift8DocumentV", "failIndexCheck"]
+- !private ["10MongoSwift8DocumentV", "fatalError"]
+- ["10MongoSwift8DocumentV", "formIndex"]
+- ["10MongoSwift8DocumentV", "index"]
+- ["10MongoSwift8DocumentV", "indices"]
+- ["10MongoSwift8DocumentV", "isEmpty"]
+- ["10MongoSwift8DocumentV", "makeIterator"]
+- ["10MongoSwift8DocumentV", "startIndex"]
+- ["10MongoSwift8DocumentV", "subscript"]
+- !private ["10MongoSwift16DocumentIteratorC", "advance"]
+- !private ["10MongoSwift16DocumentIteratorC", "currentKey"]
+- !private ["10MongoSwift16DocumentIteratorC", "currentValue"]
+- ["10MongoSwift16DocumentIteratorC", "deinit"]
+- !private ["10MongoSwift16DocumentIteratorC", "init"]
+- !private ["10MongoSwift16DocumentIteratorC", "subsequence"]
+- !private ["SE", "DocumentIterator"]
+- ["SE", "Element"]
+- ["SE", "Index"]
+- ["SE", "Indices"]
+- ["SE", "Iterator"]
+- ["SE", "SubSequence"]
+- ["SE", "_Default_Element"]
+- ["SE", "_Default_Indices"]
+- ["SE", "_Default_Iterator"]
+- ["SE", "_customIndexOfEquatableElement"]
+- ["SE", "_customLastIndexOfEquatableElement"]
+- ["SE", "_failEarlyRangeCheck"]
+- ["SE", "count"]
+- ["SE", "distance"]
+- ["SE", "endIndex"]
+- !private ["SE", "failIndexCheck"]
+- !private ["SE", "fatalError"]
+- ["SE", "formIndex"]
+- ["SE", "index"]
+- ["SE", "indices"]
+- ["SE", "isEmpty"]
+- !private ["SE", "lowerBound"]
+- ["SE", "makeIterator"]
+- ["SE", "startIndex"]
+- ["SE", "subscript"]
+- !private ["SE", "upperBound"]
+- !private ["SQ", "DocumentIterator"]
+- ["SQ", "Element"]
+- ["SQ", "Index"]
+- ["SQ", "Indices"]
+- ["SQ", "Iterator"]
+- ["SQ", "SubSequence"]
+- ["SQ", "_Default_Element"]
+- ["SQ", "_Default_Indices"]
+- ["SQ", "_Default_Iterator"]
+- ["SQ", "_customIndexOfEquatableElement"]
+- ["SQ", "_customLastIndexOfEquatableElement"]
+- ["SQ", "_failEarlyRangeCheck"]
+- ["SQ", "count"]
+- ["SQ", "distance"]
+- ["SQ", "endIndex"]
+- !private ["SQ", "failIndexCheck"]
+- !private ["SQ", "fatalError"]
+- ["SQ", "formIndex"]
+- ["SQ", "index"]
+- ["SQ", "indices"]
+- ["SQ", "isEmpty"]
+- !private ["SQ", "lowerBound"]
+- ["SQ", "makeIterator"]
+- ["SQ", "startIndex"]
+- ["SQ", "subscript"]
+- !private ["SQ", "upperBound"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "DocumentIterator"]
+- ["s30ExpressibleByDictionaryLiteralP", "Element"]
+- ["s30ExpressibleByDictionaryLiteralP", "Index"]
+- ["s30ExpressibleByDictionaryLiteralP", "Indices"]
+- ["s30ExpressibleByDictionaryLiteralP", "Iterator"]
+- ["s30ExpressibleByDictionaryLiteralP", "SubSequence"]
+- ["s30ExpressibleByDictionaryLiteralP", "_Default_Element"]
+- ["s30ExpressibleByDictionaryLiteralP", "_Default_Indices"]
+- ["s30ExpressibleByDictionaryLiteralP", "_Default_Iterator"]
+- ["s30ExpressibleByDictionaryLiteralP", "_customIndexOfEquatableElement"]
+- ["s30ExpressibleByDictionaryLiteralP", "_customLastIndexOfEquatableElement"]
+- ["s30ExpressibleByDictionaryLiteralP", "_failEarlyRangeCheck"]
+- ["s30ExpressibleByDictionaryLiteralP", "count"]
+- ["s30ExpressibleByDictionaryLiteralP", "distance"]
+- ["s30ExpressibleByDictionaryLiteralP", "endIndex"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "failIndexCheck"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "fatalError"]
+- ["s30ExpressibleByDictionaryLiteralP", "formIndex"]
+- ["s30ExpressibleByDictionaryLiteralP", "index"]
+- ["s30ExpressibleByDictionaryLiteralP", "indices"]
+- ["s30ExpressibleByDictionaryLiteralP", "isEmpty"]
+- ["s30ExpressibleByDictionaryLiteralP", "makeIterator"]
+- ["s30ExpressibleByDictionaryLiteralP", "startIndex"]
+- ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["SH", "DocumentIterator"]
+- ["SH", "Element"]
+- ["SH", "Index"]
+- ["SH", "Indices"]
+- ["SH", "Iterator"]
+- ["SH", "SubSequence"]
+- ["SH", "_Default_Element"]
+- ["SH", "_Default_Indices"]
+- ["SH", "_Default_Iterator"]
+- ["SH", "_customIndexOfEquatableElement"]
+- ["SH", "_customLastIndexOfEquatableElement"]
+- ["SH", "_failEarlyRangeCheck"]
+- ["SH", "count"]
+- ["SH", "distance"]
+- ["SH", "endIndex"]
+- !private ["SH", "failIndexCheck"]
+- !private ["SH", "fatalError"]
+- ["SH", "formIndex"]
+- ["SH", "index"]
+- ["SH", "indices"]
+- ["SH", "isEmpty"]
+- !private ["SH", "lowerBound"]
+- ["SH", "makeIterator"]
+- ["SH", "startIndex"]
+- ["SH", "subscript"]
+- !private ["SH", "upperBound"]
+- !private ["St", "advance"]
+- !private ["St", "currentKey"]
+- !private ["St", "currentValue"]
+- !private ["St", "init"]
+- !private ["St", "subsequence"]
+- !private ["Sk", "lowerBound"]
+- !private ["Sk", "upperBound"]
+- !private ["Sn", "lowerBound"]
+- !private ["Sn", "upperBound"]
+- !private ["SX", "lowerBound"]
+- !private ["SX", "upperBound"]
+- !private ["ST", "DocumentIterator"]
+- ["ST", "Element"]
+- ["ST", "Index"]
+- ["ST", "Indices"]
+- ["ST", "Iterator"]
+- ["ST", "SubSequence"]
+- ["ST", "_Default_Element"]
+- ["ST", "_Default_Indices"]
+- ["ST", "_Default_Iterator"]
+- ["ST", "_customIndexOfEquatableElement"]
+- ["ST", "_customLastIndexOfEquatableElement"]
+- ["ST", "_failEarlyRangeCheck"]
+- ["ST", "count"]
+- ["ST", "distance"]
+- ["ST", "endIndex"]
+- !private ["ST", "failIndexCheck"]
+- !private ["ST", "fatalError"]
+- ["ST", "formIndex"]
+- ["ST", "index"]
+- ["ST", "indices"]
+- ["ST", "isEmpty"]
+- !private ["ST", "lowerBound"]
+- ["ST", "makeIterator"]
+- ["ST", "startIndex"]
+- ["ST", "subscript"]
+- !private ["ST", "upperBound"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+depends-nominal:
+- "10MongoSwift9BSONValueP"
+- !private "SK"
+- "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "10MongoSwift8DocumentV"
+- "10MongoSwift16DocumentIteratorC"
+- "SE"
+- "SQ"
+- "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- !private "St"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-mongoc/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-bson/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "052d98224f6442a2f6ba923943ee2208"

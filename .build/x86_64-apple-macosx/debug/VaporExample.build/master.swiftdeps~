@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "b1d79c652cad081b68e59d30af99b8cc"
+build_time: [1598715029, 731104000]
+inputs:
+  "/Users/saurav/Documents/VaporEx/Sources/VaporExample/app.swift": [1596515051, 464609981]
+  "/Users/saurav/Documents/VaporEx/Sources/VaporExample/configure.swift": [1596556740, 138221979]
+  "/Users/saurav/Documents/VaporEx/Sources/VaporExample/main.swift": [1596512070, 402603030]
+  "/Users/saurav/Documents/VaporEx/Sources/VaporExample/routes.swift": [1596578675, 294224977]

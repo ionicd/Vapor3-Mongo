@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "4f3955e69e258931a85fbdd77dcdf2bc"
+build_time: [1598715111, 634527000]
+inputs:
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOWebSocket/Base64.swift": [1598714933, 901626202]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOWebSocket/SHA1.swift": [1598714933, 902038343]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOWebSocket/WebSocketErrorCodes.swift": [1598714933, 902429196]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOWebSocket/WebSocketFrame.swift": [1598714933, 902850243]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOWebSocket/WebSocketFrameDecoder.swift": [1598714933, 903311304]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOWebSocket/WebSocketFrameEncoder.swift": [1598714933, 903696693]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOWebSocket/WebSocketOpcode.swift": [1598714933, 904028700]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOWebSocket/WebSocketProtocolErrorHandler.swift": [1598714933, 904508468]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOWebSocket/WebSocketUpgrader.swift": [1598714933, 904793640]

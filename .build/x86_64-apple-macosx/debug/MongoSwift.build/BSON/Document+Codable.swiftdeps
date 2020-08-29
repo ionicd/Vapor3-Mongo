@@ -1,0 +1,277 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "10MongoSwift8DocumentV"
+provides-member:
+- ["10MongoSwift8DocumentV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "BSON"
+- "CastingPrecedence"
+- "Codable"
+- "Decoder"
+- !private "DecodingError"
+- "Document"
+- "Encoder"
+- !private "_BSONDecoder"
+- !private "_BSONEncoder"
+- !private "_BSONKey"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["10MongoSwift4BSONO", "bsonValue"]
+- !private ["10MongoSwift4BSONO", "deinit"]
+- !private ["10MongoSwift4BSONO", "documentValue"]
+- ["10MongoSwift4BSONO", "null"]
+- !private ["10MongoSwift9BSONValueP", "BSON"]
+- !private ["10MongoSwift9BSONValueP", "DecodingError"]
+- !private ["10MongoSwift9BSONValueP", "Document"]
+- !private ["10MongoSwift9BSONValueP", "_BSONKey"]
+- !private ["10MongoSwift9BSONValueP", "append"]
+- ["10MongoSwift9BSONValueP", "encode"]
+- ["10MongoSwift9BSONValueP", "init"]
+- !private ["10MongoSwift9BSONValueP", "setValue"]
+- !private ["SK", "append"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", "BSON"]
+- !private ["Sl", "DecodingError"]
+- !private ["Sl", "Document"]
+- !private ["Sl", "_BSONKey"]
+- !private ["Sl", "append"]
+- ["Sl", "encode"]
+- ["Sl", "init"]
+- !private ["Sl", "setValue"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s23CustomStringConvertibleP", "BSON"]
+- !private ["s23CustomStringConvertibleP", "DecodingError"]
+- !private ["s23CustomStringConvertibleP", "Document"]
+- !private ["s23CustomStringConvertibleP", "_BSONKey"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- ["s23CustomStringConvertibleP", "encode"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["Se", "BSON"]
+- !private ["Se", "DecodingError"]
+- !private ["Se", "Document"]
+- ["Se", ""]
+- !private ["Se", "_BSONKey"]
+- !private ["Se", "append"]
+- !private ["Se", "bsonValue"]
+- !private ["Se", "documentValue"]
+- ["Se", "encode"]
+- ["Se", "init"]
+- ["Se", "null"]
+- !private ["Se", "setValue"]
+- !private ["s7DecoderP", "container"]
+- !private ["s7DecoderP", "storage"]
+- !private ["s13DecodingErrorO", "_typeMismatch"]
+- !private ["10MongoSwift8DocumentV", "BSON"]
+- ["10MongoSwift8DocumentV", "Decoder"]
+- !private ["10MongoSwift8DocumentV", "DecodingError"]
+- !private ["10MongoSwift8DocumentV", "Document"]
+- ["10MongoSwift8DocumentV", "Encoder"]
+- !private ["10MongoSwift8DocumentV", "_BSONDecoder"]
+- !private ["10MongoSwift8DocumentV", "_BSONEncoder"]
+- !private ["10MongoSwift8DocumentV", "_BSONKey"]
+- ["10MongoSwift8DocumentV", "deinit"]
+- ["10MongoSwift8DocumentV", "encode"]
+- ["10MongoSwift8DocumentV", "init"]
+- !private ["10MongoSwift8DocumentV", "setValue"]
+- !private ["10MongoSwift16DocumentIteratorC", "deinit"]
+- !private ["SE", "BSON"]
+- !private ["SE", "DecodingError"]
+- !private ["SE", "Document"]
+- ["SE", ""]
+- !private ["SE", "_BSONKey"]
+- !private ["SE", "append"]
+- !private ["SE", "bsonValue"]
+- !private ["SE", "documentValue"]
+- ["SE", "encode"]
+- ["SE", "init"]
+- ["SE", "null"]
+- !private ["SE", "setValue"]
+- !private ["s7EncoderP", "container"]
+- !private ["s7EncoderP", "storage"]
+- !private ["SQ", "BSON"]
+- !private ["SQ", "DecodingError"]
+- !private ["SQ", "Document"]
+- !private ["SQ", "_BSONKey"]
+- !private ["SQ", "append"]
+- !private ["SQ", "bsonValue"]
+- !private ["SQ", "documentValue"]
+- ["SQ", "encode"]
+- ["SQ", "init"]
+- ["SQ", "null"]
+- !private ["SQ", "setValue"]
+- !private ["s5ErrorP", "_typeMismatch"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "bsonValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "documentValue"]
+- ["s25ExpressibleByArrayLiteralP", "null"]
+- !private ["s27ExpressibleByBooleanLiteralP", "bsonValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "documentValue"]
+- ["s27ExpressibleByBooleanLiteralP", "null"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "BSON"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "DecodingError"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Document"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "_BSONKey"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "bsonValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "documentValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "encode"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- ["s30ExpressibleByDictionaryLiteralP", "null"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "setValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "bsonValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "documentValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "null"]
+- !private ["s25ExpressibleByFloatLiteralP", "bsonValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "documentValue"]
+- ["s25ExpressibleByFloatLiteralP", "null"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bsonValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "documentValue"]
+- ["s27ExpressibleByIntegerLiteralP", "null"]
+- !private ["s26ExpressibleByStringLiteralP", "bsonValue"]
+- !private ["s26ExpressibleByStringLiteralP", "documentValue"]
+- ["s26ExpressibleByStringLiteralP", "null"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "bsonValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "documentValue"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "null"]
+- !private ["SH", "BSON"]
+- !private ["SH", "DecodingError"]
+- !private ["SH", "Document"]
+- !private ["SH", "_BSONKey"]
+- !private ["SH", "append"]
+- !private ["SH", "bsonValue"]
+- !private ["SH", "documentValue"]
+- ["SH", "encode"]
+- ["SH", "init"]
+- ["SH", "null"]
+- !private ["SH", "setValue"]
+- !private ["s22KeyedDecodingContainerV", "allKeys"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeNil"]
+- !private ["s30KeyedDecodingContainerProtocolP", "allKeys"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeNil"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeNil"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeNil"]
+- !private ["10Foundation14LocalizedErrorP", "_typeMismatch"]
+- !private ["SM", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["Sk", "append"]
+- !private ["Sm", "append"]
+- !private ["ST", "BSON"]
+- !private ["ST", "DecodingError"]
+- !private ["ST", "Document"]
+- !private ["ST", "_BSONKey"]
+- !private ["ST", "append"]
+- ["ST", "encode"]
+- ["ST", "init"]
+- !private ["ST", "setValue"]
+- !private ["s28SingleValueDecodingContainerP", "storage"]
+- !private ["s28SingleValueEncodingContainerP", "storage"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["10MongoSwift12_BSONDecoderC", "storage"]
+- !private ["10MongoSwift20_BSONDecodingStorageV", "topContainer"]
+- !private ["10MongoSwift12_BSONEncoderC", "storage"]
+- !private ["10MongoSwift20_BSONEncodingStorageV", "containers"]
+- !private ["10MongoSwift8_BSONKeyV", "deinit"]
+- !private ["10MongoSwift8_BSONKeyV", "init"]
+- !private ["10MongoSwift8_BSONKeyV", "stringValue"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+depends-nominal:
+- !private "Sa"
+- "10MongoSwift4BSONO"
+- "10MongoSwift9BSONValueP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "s9CodingKeyP"
+- "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s7DecoderP"
+- !private "s13DecodingErrorO"
+- "10MongoSwift8DocumentV"
+- !private "10MongoSwift16DocumentIteratorC"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "10Foundation14LocalizedErrorP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- "ST"
+- !private "s28SingleValueDecodingContainerP"
+- !private "s28SingleValueEncodingContainerP"
+- !private "s14_ArrayProtocolP"
+- !private "10MongoSwift12_BSONDecoderC"
+- !private "10MongoSwift20_BSONDecodingStorageV"
+- !private "10MongoSwift12_BSONEncoderC"
+- !private "10MongoSwift20_BSONEncodingStorageV"
+- !private "10MongoSwift8_BSONKeyV"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-mongoc/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-bson/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8928f93aa1add8b64c4ff336ad0e5e8c"

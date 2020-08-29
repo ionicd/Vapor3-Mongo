@@ -1,0 +1,423 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Connection"
+- "ConnectionPool"
+provides-nominal:
+- "10MongoSwift10ConnectionV"
+- "10MongoSwift14ConnectionPoolC"
+- "10MongoSwift14ConnectionPoolC5StateO"
+provides-member:
+- ["10MongoSwift10ConnectionV", ""]
+- ["10MongoSwift14ConnectionPoolC", ""]
+- ["10MongoSwift14ConnectionPoolC5StateO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "AssignmentPrecedence"
+- "Connection"
+- "ConnectionPool"
+- "ConnectionString"
+- "Int8"
+- !private "MONGOC_ERROR_API_VERSION_2"
+- "OpaquePointer"
+- !private "RuntimeError"
+- "String"
+- "TLSOptions"
+- !private "UnsafeMutablePointer"
+- "UnsafePointer"
+- !private "UserError"
+- !private "fatalError"
+- !private "mongoc_client_pool_destroy"
+- !private "mongoc_client_pool_new"
+- !private "mongoc_client_pool_pop"
+- !private "mongoc_client_pool_push"
+- !private "mongoc_client_pool_set_error_api"
+- !private "mongoc_client_pool_set_ssl_opts"
+- !private "mongoc_ssl_opt_t"
+depends-member:
+- !private ["10MongoSwift9BSONValueP", "UnsafeMutablePointer"]
+- !private ["10MongoSwift9BSONValueP", "UnsafePointer"]
+- !private ["10MongoSwift9BSONValueP", "asCString"]
+- !private ["10MongoSwift9BSONValueP", "utf8"]
+- !private ["10MongoSwift9BSONValueP", "withCString"]
+- !private ["SK", "UnsafeMutablePointer"]
+- !private ["SK", "UnsafePointer"]
+- !private ["SK", "asCString"]
+- !private ["SK", "count"]
+- !private ["SK", "utf8"]
+- !private ["SK", "withCString"]
+- !private ["s7CVarArgP", "UnsafeMutablePointer"]
+- !private ["s7CVarArgP", "UnsafePointer"]
+- !private ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "asCString"]
+- !private ["s7CVarArgP", "deallocate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initialize"]
+- !private ["s7CVarArgP", "utf8"]
+- !private ["s7CVarArgP", "withCString"]
+- !private ["Sl", "UnsafeMutablePointer"]
+- !private ["Sl", "UnsafePointer"]
+- !private ["Sl", "asCString"]
+- !private ["Sl", "count"]
+- !private ["Sl", "utf8"]
+- !private ["Sl", "withCString"]
+- !private ["SL", "UnsafeMutablePointer"]
+- !private ["SL", "UnsafePointer"]
+- !private ["SL", "allocate"]
+- !private ["SL", "asCString"]
+- !private ["SL", "deallocate"]
+- !private ["SL", "init"]
+- !private ["SL", "initialize"]
+- !private ["SL", "utf8"]
+- !private ["SL", "withCString"]
+- ["10MongoSwift10ConnectionV", "OpaquePointer"]
+- ["10MongoSwift10ConnectionV", "clientHandle"]
+- ["10MongoSwift10ConnectionV", "init"]
+- ["10MongoSwift14ConnectionPoolC", "Connection"]
+- ["10MongoSwift14ConnectionPoolC", "ConnectionString"]
+- !private ["10MongoSwift14ConnectionPoolC", "MONGOC_ERROR_API_VERSION_2"]
+- ["10MongoSwift14ConnectionPoolC", "OpaquePointer"]
+- !private ["10MongoSwift14ConnectionPoolC", "RuntimeError"]
+- ["10MongoSwift14ConnectionPoolC", "State"]
+- ["10MongoSwift14ConnectionPoolC", "TLSOptions"]
+- !private ["10MongoSwift14ConnectionPoolC", "UserError"]
+- ["10MongoSwift14ConnectionPoolC", "checkIn"]
+- ["10MongoSwift14ConnectionPoolC", "checkOut"]
+- ["10MongoSwift14ConnectionPoolC", "close"]
+- ["10MongoSwift14ConnectionPoolC", "deinit"]
+- !private ["10MongoSwift14ConnectionPoolC", "fatalError"]
+- ["10MongoSwift14ConnectionPoolC", "init"]
+- !private ["10MongoSwift14ConnectionPoolC", "mongoc_client_pool_destroy"]
+- !private ["10MongoSwift14ConnectionPoolC", "mongoc_client_pool_new"]
+- !private ["10MongoSwift14ConnectionPoolC", "mongoc_client_pool_pop"]
+- !private ["10MongoSwift14ConnectionPoolC", "mongoc_client_pool_push"]
+- !private ["10MongoSwift14ConnectionPoolC", "mongoc_client_pool_set_error_api"]
+- !private ["10MongoSwift14ConnectionPoolC", "mongoc_client_pool_set_ssl_opts"]
+- !private ["10MongoSwift14ConnectionPoolC", "mongoc_ssl_opt_t"]
+- !private ["10MongoSwift14ConnectionPoolC", "setTLSOptions"]
+- ["10MongoSwift14ConnectionPoolC", "state"]
+- ["10MongoSwift14ConnectionPoolC", "withConnection"]
+- !private ["10MongoSwift16ConnectionStringC", "_uri"]
+- !private ["s28CustomDebugStringConvertibleP", "UnsafeMutablePointer"]
+- !private ["s28CustomDebugStringConvertibleP", "UnsafePointer"]
+- !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "asCString"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "deallocate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initialize"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8"]
+- !private ["s28CustomDebugStringConvertibleP", "withCString"]
+- !private ["s17CustomReflectableP", "UnsafeMutablePointer"]
+- !private ["s17CustomReflectableP", "UnsafePointer"]
+- !private ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "asCString"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "deallocate"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "initialize"]
+- !private ["s17CustomReflectableP", "utf8"]
+- !private ["s17CustomReflectableP", "withCString"]
+- !private ["s23CustomStringConvertibleP", "UnsafeMutablePointer"]
+- !private ["s23CustomStringConvertibleP", "UnsafePointer"]
+- !private ["s23CustomStringConvertibleP", "absoluteString"]
+- !private ["s23CustomStringConvertibleP", "asCString"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "withCString"]
+- !private ["Se", "UnsafeMutablePointer"]
+- !private ["Se", "UnsafePointer"]
+- !private ["Se", "absoluteString"]
+- !private ["Se", "asCString"]
+- !private ["Se", "utf8"]
+- !private ["Se", "withCString"]
+- !private ["SE", "UnsafeMutablePointer"]
+- !private ["SE", "UnsafePointer"]
+- !private ["SE", "absoluteString"]
+- !private ["SE", "asCString"]
+- !private ["SE", "utf8"]
+- !private ["SE", "withCString"]
+- !private ["SQ", "UnsafeMutablePointer"]
+- !private ["SQ", "UnsafePointer"]
+- !private ["SQ", "absoluteString"]
+- !private ["SQ", "allocate"]
+- !private ["SQ", "asCString"]
+- !private ["SQ", "deallocate"]
+- !private ["SQ", "init"]
+- !private ["SQ", "initialize"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "withCString"]
+- !private ["s5ErrorP", "internalError"]
+- !private ["s5ErrorP", "invalidArgumentError"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UnsafeMutablePointer"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UnsafePointer"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "asCString"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "withCString"]
+- !private ["s32ExpressibleByStringInterpolationP", "UnsafeMutablePointer"]
+- !private ["s32ExpressibleByStringInterpolationP", "UnsafePointer"]
+- !private ["s32ExpressibleByStringInterpolationP", "asCString"]
+- !private ["s32ExpressibleByStringInterpolationP", "utf8"]
+- !private ["s32ExpressibleByStringInterpolationP", "withCString"]
+- !private ["s26ExpressibleByStringLiteralP", "UnsafeMutablePointer"]
+- !private ["s26ExpressibleByStringLiteralP", "UnsafePointer"]
+- !private ["s26ExpressibleByStringLiteralP", "asCString"]
+- !private ["s26ExpressibleByStringLiteralP", "utf8"]
+- !private ["s26ExpressibleByStringLiteralP", "withCString"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "UnsafeMutablePointer"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "UnsafePointer"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "asCString"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "withCString"]
+- !private ["SH", "UnsafeMutablePointer"]
+- !private ["SH", "UnsafePointer"]
+- !private ["SH", "absoluteString"]
+- !private ["SH", "allocate"]
+- !private ["SH", "asCString"]
+- !private ["SH", "deallocate"]
+- !private ["SH", "init"]
+- !private ["SH", "initialize"]
+- !private ["SH", "utf8"]
+- !private ["SH", "withCString"]
+- !private ["10Foundation14LocalizedErrorP", "internalError"]
+- !private ["10Foundation14LocalizedErrorP", "invalidArgumentError"]
+- !private ["s25LosslessStringConvertibleP", "UnsafeMutablePointer"]
+- !private ["s25LosslessStringConvertibleP", "UnsafePointer"]
+- !private ["s25LosslessStringConvertibleP", "asCString"]
+- !private ["s25LosslessStringConvertibleP", "utf8"]
+- !private ["s25LosslessStringConvertibleP", "withCString"]
+- !private ["s10MirrorPathP", "UnsafeMutablePointer"]
+- !private ["s10MirrorPathP", "UnsafePointer"]
+- !private ["s10MirrorPathP", "asCString"]
+- !private ["s10MirrorPathP", "utf8"]
+- !private ["s10MirrorPathP", "withCString"]
+- !private ["10MongoSwift0A5ErrorP", "internalError"]
+- !private ["10MongoSwift0A5ErrorP", "invalidArgumentError"]
+- !private ["So8NSCodingP", "asCString"]
+- !private ["So8NSCodingP", "utf8"]
+- !private ["So8NSCodingP", "withCString"]
+- !private ["So9NSCopyingP", "asCString"]
+- !private ["So9NSCopyingP", "utf8"]
+- !private ["So9NSCopyingP", "withCString"]
+- !private ["So21NSItemProviderReadingP", "asCString"]
+- !private ["So21NSItemProviderReadingP", "utf8"]
+- !private ["So21NSItemProviderReadingP", "withCString"]
+- !private ["So21NSItemProviderWritingP", "asCString"]
+- !private ["So21NSItemProviderWritingP", "utf8"]
+- !private ["So21NSItemProviderWritingP", "withCString"]
+- !private ["So16NSMutableCopyingP", "asCString"]
+- !private ["So16NSMutableCopyingP", "utf8"]
+- !private ["So16NSMutableCopyingP", "withCString"]
+- !private ["So8NSObjectC", "asCString"]
+- !private ["So8NSObjectC", "utf8"]
+- !private ["So8NSObjectC", "withCString"]
+- !private ["So8NSObjectP", "asCString"]
+- !private ["So8NSObjectP", "utf8"]
+- !private ["So8NSObjectP", "withCString"]
+- !private ["So14NSSecureCodingP", "asCString"]
+- !private ["So14NSSecureCodingP", "utf8"]
+- !private ["So14NSSecureCodingP", "withCString"]
+- !private ["So8NSStringC", "asCString"]
+- !private ["So8NSStringC", "utf8"]
+- !private ["So8NSStringC", "withCString"]
+- !private ["Sm", "UnsafeMutablePointer"]
+- !private ["Sm", "UnsafePointer"]
+- !private ["Sm", "asCString"]
+- !private ["Sm", "utf8"]
+- !private ["Sm", "withCString"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
+- !private ["10MongoSwift12RuntimeErrorO", "deinit"]
+- !private ["10MongoSwift12RuntimeErrorO", "internalError"]
+- !private ["ST", "UnsafeMutablePointer"]
+- !private ["ST", "UnsafePointer"]
+- !private ["ST", "asCString"]
+- !private ["ST", "count"]
+- !private ["ST", "utf8"]
+- !private ["ST", "withCString"]
+- ["10MongoSwift14ConnectionPoolC5StateO", "OpaquePointer"]
+- ["10MongoSwift14ConnectionPoolC5StateO", "closed"]
+- ["10MongoSwift14ConnectionPoolC5StateO", "open"]
+- !private ["Sx", "allocate"]
+- !private ["Sx", "deallocate"]
+- !private ["Sx", "init"]
+- !private ["Sx", "initialize"]
+- ["SS", "Int8"]
+- !private ["SS", "UnsafeMutablePointer"]
+- ["SS", "UnsafePointer"]
+- !private ["SS", "asCString"]
+- !private ["SS", "utf8"]
+- !private ["SS", "withCString"]
+- !private ["Sy", "UnsafeMutablePointer"]
+- !private ["Sy", "UnsafePointer"]
+- !private ["Sy", "asCString"]
+- !private ["Sy", "utf8"]
+- !private ["Sy", "withCString"]
+- !private ["10MongoSwift10TLSOptionsV", "allowInvalidHostnames"]
+- !private ["10MongoSwift10TLSOptionsV", "caFile"]
+- !private ["10MongoSwift10TLSOptionsV", "pemFile"]
+- !private ["10MongoSwift10TLSOptionsV", "pemPassword"]
+- !private ["10MongoSwift10TLSOptionsV", "weakCertValidation"]
+- !private ["s16TextOutputStreamP", "UnsafeMutablePointer"]
+- !private ["s16TextOutputStreamP", "UnsafePointer"]
+- !private ["s16TextOutputStreamP", "asCString"]
+- !private ["s16TextOutputStreamP", "utf8"]
+- !private ["s16TextOutputStreamP", "withCString"]
+- !private ["s20TextOutputStreamableP", "UnsafeMutablePointer"]
+- !private ["s20TextOutputStreamableP", "UnsafePointer"]
+- !private ["s20TextOutputStreamableP", "asCString"]
+- !private ["s20TextOutputStreamableP", "utf8"]
+- !private ["s20TextOutputStreamableP", "withCString"]
+- !private ["10Foundation3URLV", "absoluteString"]
+- !private ["SS8UTF8ViewV", "count"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "initialize"]
+- !private ["SP", "deallocate"]
+- !private ["SP", "init"]
+- !private ["10MongoSwift9UserErrorO", "deinit"]
+- !private ["10MongoSwift9UserErrorO", "invalidArgumentError"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "UnsafeMutablePointer"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "UnsafePointer"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "absoluteString"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "asCString"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "deallocate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "initialize"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "utf8"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "withCString"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "UnsafeMutablePointer"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "UnsafePointer"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "asCString"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "withCString"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "UnsafeMutablePointer"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "UnsafePointer"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "asCString"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf8"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "withCString"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "UnsafeMutablePointer"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "UnsafePointer"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "asCString"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "withCString"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteString"]
+- !private ["s19_HasContiguousBytesP", "UnsafeMutablePointer"]
+- !private ["s19_HasContiguousBytesP", "UnsafePointer"]
+- !private ["s19_HasContiguousBytesP", "asCString"]
+- !private ["s19_HasContiguousBytesP", "utf8"]
+- !private ["s19_HasContiguousBytesP", "withCString"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "asCString"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "utf8"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "withCString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "asCString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "utf8"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "withCString"]
+- !private ["s21_ObjectiveCBridgeableP", "UnsafeMutablePointer"]
+- !private ["s21_ObjectiveCBridgeableP", "UnsafePointer"]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
+- !private ["s21_ObjectiveCBridgeableP", "asCString"]
+- !private ["s21_ObjectiveCBridgeableP", "utf8"]
+- !private ["s21_ObjectiveCBridgeableP", "withCString"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "deallocate"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "initialize"]
+- !private ["So17_mongoc_ssl_opt_tV", "allow_invalid_hostname"]
+- !private ["So17_mongoc_ssl_opt_tV", "ca_file"]
+- !private ["So17_mongoc_ssl_opt_tV", "init"]
+- !private ["So17_mongoc_ssl_opt_tV", "pem_file"]
+- !private ["So17_mongoc_ssl_opt_tV", "pem_pwd"]
+- !private ["So17_mongoc_ssl_opt_tV", "weak_cert_validation"]
+depends-nominal:
+- !private "10MongoSwift9BSONValueP"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "10MongoSwift10ConnectionV"
+- "10MongoSwift14ConnectionPoolC"
+- !private "10MongoSwift16ConnectionStringC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "10MongoSwift0A5ErrorP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10MongoSwift12RuntimeErrorO"
+- !private "ST"
+- "10MongoSwift14ConnectionPoolC5StateO"
+- !private "Sx"
+- "SS"
+- !private "Sy"
+- !private "10MongoSwift10TLSOptionsV"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "SS8UTF8ViewV"
+- !private "Sp"
+- !private "SP"
+- !private "10MongoSwift9UserErrorO"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "So17_mongoc_ssl_opt_tV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-mongoc/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-bson/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4c2bba5b06c80460fe48e517e0f1f6df"

@@ -1,0 +1,329 @@
+{
+  "": {
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/master.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/APM.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/APM.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/APM.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/APM~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/APM.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/BSON/BSON.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/BSON.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/BSON.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/BSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/BSON.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/BSON/BSONDecoder.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/BSONDecoder.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/BSONDecoder.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/BSONDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/BSONDecoder.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/BSON/BSONEncoder.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/BSONEncoder.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/BSONEncoder.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/BSONEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/BSONEncoder.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/BSON/BSONValue.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/BSONValue.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/BSONValue.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/BSONValue~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/BSONValue.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/BSON/CodableNumber.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/CodableNumber.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/CodableNumber.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/CodableNumber~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/CodableNumber.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/BSON/CodingStrategies.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/CodingStrategies.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/CodingStrategies.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/CodingStrategies~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/CodingStrategies.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/BSON/Document+Codable.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/Document+Codable.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/Document+Codable.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/Document+Codable~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/Document+Codable.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/BSON/Document+Collection.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/Document+Collection.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/Document+Collection.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/Document+Collection~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/Document+Collection.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/BSON/Document+Sequence.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/Document+Sequence.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/Document+Sequence.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/Document+Sequence~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/Document+Sequence.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/BSON/Document.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/Document.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/Document.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/Document~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/Document.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/BSON/DocumentIterator.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/DocumentIterator.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/DocumentIterator.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/DocumentIterator~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/DocumentIterator.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/BSON/Overwritable.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/Overwritable.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/Overwritable.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/Overwritable~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/BSON/Overwritable.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/ChangeStream.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ChangeStream.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ChangeStream.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ChangeStream~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ChangeStream.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/ChangeStreamDocument.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ChangeStreamDocument.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ChangeStreamDocument.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ChangeStreamDocument~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ChangeStreamDocument.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/ChangeStreamOptions.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ChangeStreamOptions.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ChangeStreamOptions.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ChangeStreamOptions~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ChangeStreamOptions.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/ClientSession.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ClientSession.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ClientSession.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ClientSession~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ClientSession.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/ConnectionPool.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ConnectionPool.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ConnectionPool.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ConnectionPool~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ConnectionPool.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/ConnectionString.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ConnectionString.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ConnectionString.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ConnectionString~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ConnectionString.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/Counter.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Counter.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Counter.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Counter~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Counter.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/MongoClient.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoClient.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoClient.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoClient.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/MongoCollection+BulkWrite.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+BulkWrite.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+BulkWrite.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+BulkWrite~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+BulkWrite.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/MongoCollection+ChangeStreams.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+ChangeStreams.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+ChangeStreams.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+ChangeStreams~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+ChangeStreams.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/MongoCollection+FindAndModify.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+FindAndModify.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+FindAndModify.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+FindAndModify~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+FindAndModify.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/MongoCollection+Indexes.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+Indexes.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+Indexes.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+Indexes~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+Indexes.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/MongoCollection+Read.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+Read.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+Read.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+Read~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+Read.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/MongoCollection+Write.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+Write.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+Write.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+Write~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection+Write.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/MongoCollection.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCollection.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/MongoCursor.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCursor.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCursor.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCursor~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoCursor.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/MongoDatabase.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoDatabase.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoDatabase.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoDatabase~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoDatabase.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/MongoError.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoError.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoError.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoError~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoError.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/MongoNamespace.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoNamespace.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoNamespace.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoNamespace~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoNamespace.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/MongoSwift.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoSwift.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoSwift.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoSwift~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoSwift.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/MongoSwiftVersion.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoSwiftVersion.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoSwiftVersion.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoSwiftVersion~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/MongoSwiftVersion.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/Operations/CountDocumentsOperation.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/CountDocumentsOperation.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/CountDocumentsOperation.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/CountDocumentsOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/CountDocumentsOperation.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/Operations/CreateCollectionOperation.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/CreateCollectionOperation.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/CreateCollectionOperation.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/CreateCollectionOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/CreateCollectionOperation.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/Operations/CreateIndexesOperation.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/CreateIndexesOperation.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/CreateIndexesOperation.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/CreateIndexesOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/CreateIndexesOperation.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/Operations/DistinctOperation.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/DistinctOperation.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/DistinctOperation.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/DistinctOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/DistinctOperation.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/Operations/DropCollectionOperation.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/DropCollectionOperation.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/DropCollectionOperation.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/DropCollectionOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/DropCollectionOperation.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/Operations/DropDatabaseOperation.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/DropDatabaseOperation.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/DropDatabaseOperation.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/DropDatabaseOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/DropDatabaseOperation.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/Operations/DropIndexesOperation.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/DropIndexesOperation.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/DropIndexesOperation.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/DropIndexesOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/DropIndexesOperation.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/Operations/EstimatedDocumentCountOperation.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/EstimatedDocumentCountOperation.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/EstimatedDocumentCountOperation.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/EstimatedDocumentCountOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/EstimatedDocumentCountOperation.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/Operations/FindAndModifyOperation.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/FindAndModifyOperation.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/FindAndModifyOperation.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/FindAndModifyOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/FindAndModifyOperation.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/Operations/ListCollectionsOperation.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/ListCollectionsOperation.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/ListCollectionsOperation.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/ListCollectionsOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/ListCollectionsOperation.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/Operations/ListDatabasesOperation.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/ListDatabasesOperation.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/ListDatabasesOperation.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/ListDatabasesOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/ListDatabasesOperation.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/Operations/ListIndexesOperation.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/ListIndexesOperation.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/ListIndexesOperation.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/ListIndexesOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/ListIndexesOperation.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/Operations/NextOperation.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/NextOperation.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/NextOperation.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/NextOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/NextOperation.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/Operations/Operation.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/Operation.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/Operation.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/Operation~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/Operation.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/Operations/RunCommandOperation.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/RunCommandOperation.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/RunCommandOperation.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/RunCommandOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/RunCommandOperation.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/Operations/WatchOperation.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/WatchOperation.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/WatchOperation.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/WatchOperation~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/Operations/WatchOperation.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/ReadConcern.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ReadConcern.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ReadConcern.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ReadConcern~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ReadConcern.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/ReadPreference.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ReadPreference.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ReadPreference.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ReadPreference~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/ReadPreference.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/SDAM.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/SDAM.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/SDAM.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/SDAM~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/SDAM.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/mongo-swift-driver/Sources/MongoSwift/WriteConcern.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/WriteConcern.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/WriteConcern.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/WriteConcern~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/MongoSwift.build/WriteConcern.swiftdeps"
+  }
+}

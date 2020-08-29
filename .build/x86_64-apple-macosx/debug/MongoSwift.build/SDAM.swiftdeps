@@ -1,0 +1,794 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ConnectionId"
+- "ServerDescription"
+- "TopologyDescription"
+- "=="
+- "=="
+provides-nominal:
+- "10MongoSwift12ConnectionIdV"
+- "10MongoSwift17ServerDescriptionV"
+- "10MongoSwift17ServerDescriptionV0C4TypeO"
+- "10MongoSwift19TopologyDescriptionV"
+- "10MongoSwift19TopologyDescriptionV0C4TypeO"
+provides-member:
+- ["10MongoSwift12ConnectionIdV", ""]
+- ["10MongoSwift17ServerDescriptionV", ""]
+- ["10MongoSwift17ServerDescriptionV0C4TypeO", ""]
+- ["10MongoSwift19TopologyDescriptionV", ""]
+- ["10MongoSwift19TopologyDescriptionV0C4TypeO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- "=="
+- !private ">"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CChar"
+- "ConnectionId"
+- "Date"
+- "Document"
+- "Equatable"
+- !private "ExtendedGraphemeClusterType"
+- "Int32"
+- "Int64"
+- "MongoError"
+- "ObjectId"
+- "OpaquePointer"
+- "ServerDescription"
+- "String"
+- "TopologyDescription"
+- "UInt16"
+- !private "UnsafeBufferPointer"
+- "UnsafePointer"
+- !private "_findStringSwitchCase"
+- "mongoc_host_list_t"
+- !private "mongoc_server_description_host"
+- !private "mongoc_server_description_ismaster"
+- !private "mongoc_server_description_round_trip_time"
+- !private "mongoc_server_description_type"
+- !private "mongoc_server_descriptions_destroy_all"
+- !private "mongoc_topology_description_get_servers"
+- !private "mongoc_topology_description_type"
+- !private "size_t"
+- !private "withUnsafeBytes"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "asArrayOf"]
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "contains"]
+- !private ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "map"]
+- !private ["Sa", "min"]
+- !private ["Sa", "subscript"]
+- !private ["10MongoSwift4BSONO", "arrayValue"]
+- !private ["10MongoSwift4BSONO", "asInt32"]
+- !private ["10MongoSwift4BSONO", "asInt64"]
+- !private ["10MongoSwift4BSONO", "dateValue"]
+- !private ["10MongoSwift4BSONO", "documentValue"]
+- !private ["10MongoSwift4BSONO", "int64Value"]
+- !private ["10MongoSwift4BSONO", "objectIdValue"]
+- !private ["10MongoSwift4BSONO", "stringValue"]
+- !private ["10MongoSwift9BSONValueP", "asArrayOf"]
+- !private ["10MongoSwift9BSONValueP", "compactMap"]
+- !private ["10MongoSwift9BSONValueP", "contains"]
+- !private ["10MongoSwift9BSONValueP", "init"]
+- !private ["10MongoSwift9BSONValueP", "isEmpty"]
+- !private ["10MongoSwift9BSONValueP", "map"]
+- !private ["10MongoSwift9BSONValueP", "min"]
+- !private ["10MongoSwift9BSONValueP", "split"]
+- !private ["10MongoSwift9BSONValueP", "subscript"]
+- !private ["SK", "asArrayOf"]
+- !private ["SK", "baseAddress"]
+- !private ["SK", "compactMap"]
+- !private ["SK", "contains"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "map"]
+- !private ["SK", "min"]
+- !private ["SK", "split"]
+- !private ["SK", "subscript"]
+- !private ["Sz", "init"]
+- !private ["s7CVarArgP", "asArrayOf"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "min"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "split"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["10MongoSwift13CodableNumberP", "init"]
+- !private ["Sl", "asArrayOf"]
+- !private ["Sl", "baseAddress"]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "map"]
+- !private ["Sl", "min"]
+- !private ["Sl", "split"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "assumingMemoryBound"]
+- !private ["SL", "init"]
+- !private ["SL", "pointee"]
+- !private ["SL", "split"]
+- ["10MongoSwift12ConnectionIdV", "=="]
+- !private ["10MongoSwift12ConnectionIdV", "CChar"]
+- ["10MongoSwift12ConnectionIdV", "String"]
+- ["10MongoSwift12ConnectionIdV", "UInt16"]
+- ["10MongoSwift12ConnectionIdV", "UnsafePointer"]
+- ["10MongoSwift12ConnectionIdV", "__derived_struct_equals"]
+- ["10MongoSwift12ConnectionIdV", "deinit"]
+- ["10MongoSwift12ConnectionIdV", "host"]
+- ["10MongoSwift12ConnectionIdV", "init"]
+- ["10MongoSwift12ConnectionIdV", "mongoc_host_list_t"]
+- ["10MongoSwift12ConnectionIdV", "port"]
+- !private ["10MongoSwift12ConnectionIdV", "withUnsafeBytes"]
+- !private ["10Foundation15ContiguousBytesP", "asArrayOf"]
+- !private ["10Foundation15ContiguousBytesP", "baseAddress"]
+- !private ["10Foundation15ContiguousBytesP", "compactMap"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["10Foundation15ContiguousBytesP", "min"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "asArrayOf"]
+- !private ["s28CustomDebugStringConvertibleP", "assumingMemoryBound"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "min"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "split"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "asArrayOf"]
+- !private ["s17CustomReflectableP", "assumingMemoryBound"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "min"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "split"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "asArrayOf"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "min"]
+- !private ["s23CustomStringConvertibleP", "split"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "asArrayOf"]
+- !private ["10Foundation12DataProtocolP", "baseAddress"]
+- !private ["10Foundation12DataProtocolP", "compactMap"]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["10Foundation12DataProtocolP", "min"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "arrayValue"]
+- !private ["Se", "asArrayOf"]
+- !private ["Se", "asInt32"]
+- !private ["Se", "asInt64"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "contains"]
+- !private ["Se", "dateValue"]
+- !private ["Se", "documentValue"]
+- !private ["Se", "init"]
+- !private ["Se", "int64Value"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "map"]
+- !private ["Se", "min"]
+- !private ["Se", "objectIdValue"]
+- !private ["Se", "split"]
+- !private ["Se", "stringValue"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["10MongoSwift8DocumentV", "deinit"]
+- !private ["10MongoSwift8DocumentV", "init"]
+- !private ["10MongoSwift8DocumentV", "subscript"]
+- !private ["10MongoSwift16DocumentIteratorC", "deinit"]
+- !private ["SE", "arrayValue"]
+- !private ["SE", "asArrayOf"]
+- !private ["SE", "asInt32"]
+- !private ["SE", "asInt64"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "contains"]
+- !private ["SE", "dateValue"]
+- !private ["SE", "documentValue"]
+- !private ["SE", "init"]
+- !private ["SE", "int64Value"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "map"]
+- !private ["SE", "min"]
+- !private ["SE", "objectIdValue"]
+- !private ["SE", "split"]
+- !private ["SE", "stringValue"]
+- !private ["SE", "subscript"]
+- ["SQ", "=="]
+- !private ["SQ", "Array"]
+- !private ["SQ", "CChar"]
+- !private ["SQ", "ConnectionId"]
+- !private ["SQ", "Document"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "ServerDescription"]
+- !private ["SQ", "ServerType"]
+- !private ["SQ", "String"]
+- !private ["SQ", "TopologyType"]
+- !private ["SQ", "UInt16"]
+- !private ["SQ", "UnsafeBufferPointer"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "arbiters"]
+- !private ["SQ", "arrayValue"]
+- !private ["SQ", "asArrayOf"]
+- !private ["SQ", "asInt32"]
+- !private ["SQ", "asInt64"]
+- !private ["SQ", "assumingMemoryBound"]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "connectionId"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "dateValue"]
+- !private ["SQ", "documentValue"]
+- !private ["SQ", "electionId"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "host"]
+- !private ["SQ", "hosts"]
+- ["SQ", "init"]
+- !private ["SQ", "int64Value"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "lastUpdateTime"]
+- !private ["SQ", "lastWriteDate"]
+- !private ["SQ", "logicalSessionTimeoutMinutes"]
+- !private ["SQ", "map"]
+- !private ["SQ", "maxElectionId"]
+- !private ["SQ", "maxSetVersion"]
+- !private ["SQ", "maxWireVersion"]
+- !private ["SQ", "me"]
+- !private ["SQ", "min"]
+- !private ["SQ", "minWireVersion"]
+- !private ["SQ", "mongoc_server_description_host"]
+- !private ["SQ", "mongoc_server_description_ismaster"]
+- !private ["SQ", "mongoc_server_description_round_trip_time"]
+- !private ["SQ", "mongoc_server_description_type"]
+- !private ["SQ", "mongoc_server_descriptions_destroy_all"]
+- !private ["SQ", "mongoc_topology_description_get_servers"]
+- !private ["SQ", "mongoc_topology_description_type"]
+- !private ["SQ", "objectIdValue"]
+- !private ["SQ", "opTime"]
+- !private ["SQ", "parseIsMaster"]
+- !private ["SQ", "passives"]
+- !private ["SQ", "pointee"]
+- !private ["SQ", "port"]
+- !private ["SQ", "primary"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "replicaSetWithPrimary"]
+- !private ["SQ", "roundTripTime"]
+- !private ["SQ", "servers"]
+- !private ["SQ", "setName"]
+- !private ["SQ", "setVersion"]
+- !private ["SQ", "sharded"]
+- !private ["SQ", "single"]
+- !private ["SQ", "size_t"]
+- !private ["SQ", "split"]
+- !private ["SQ", "stale"]
+- !private ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "tags"]
+- !private ["SQ", "type"]
+- ["SQ", "unknown"]
+- !private ["SQ", "withUnsafeBytes"]
+- !private ["s25ExpressibleByArrayLiteralP", "arrayValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "asArrayOf"]
+- !private ["s25ExpressibleByArrayLiteralP", "asInt32"]
+- !private ["s25ExpressibleByArrayLiteralP", "asInt64"]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "dateValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "documentValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "int64Value"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "min"]
+- !private ["s25ExpressibleByArrayLiteralP", "objectIdValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "stringValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "arrayValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "asInt32"]
+- !private ["s27ExpressibleByBooleanLiteralP", "asInt64"]
+- !private ["s27ExpressibleByBooleanLiteralP", "dateValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "documentValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "int64Value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "objectIdValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "stringValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "arrayValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "asInt32"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "asInt64"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "dateValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "documentValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "int64Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "objectIdValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "stringValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "arrayValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "asInt32"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "asInt64"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "dateValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "documentValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "int64Value"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "objectIdValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "split"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "stringValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "arrayValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "asInt32"]
+- !private ["s25ExpressibleByFloatLiteralP", "asInt64"]
+- !private ["s25ExpressibleByFloatLiteralP", "dateValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "documentValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "int64Value"]
+- !private ["s25ExpressibleByFloatLiteralP", "objectIdValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "stringValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "arrayValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "asInt32"]
+- !private ["s27ExpressibleByIntegerLiteralP", "asInt64"]
+- !private ["s27ExpressibleByIntegerLiteralP", "dateValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "documentValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "int64Value"]
+- !private ["s27ExpressibleByIntegerLiteralP", "objectIdValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "stringValue"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "split"]
+- !private ["s26ExpressibleByStringLiteralP", "arrayValue"]
+- !private ["s26ExpressibleByStringLiteralP", "asInt32"]
+- !private ["s26ExpressibleByStringLiteralP", "asInt64"]
+- !private ["s26ExpressibleByStringLiteralP", "dateValue"]
+- !private ["s26ExpressibleByStringLiteralP", "documentValue"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "int64Value"]
+- !private ["s26ExpressibleByStringLiteralP", "objectIdValue"]
+- !private ["s26ExpressibleByStringLiteralP", "split"]
+- !private ["s26ExpressibleByStringLiteralP", "stringValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "arrayValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "asInt32"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "asInt64"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "dateValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "documentValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "int64Value"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "objectIdValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "split"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "stringValue"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "arrayValue"]
+- !private ["SH", "asArrayOf"]
+- !private ["SH", "asInt32"]
+- !private ["SH", "asInt64"]
+- !private ["SH", "assumingMemoryBound"]
+- !private ["SH", "compactMap"]
+- !private ["SH", "contains"]
+- !private ["SH", "dateValue"]
+- !private ["SH", "documentValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "int64Value"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "map"]
+- !private ["SH", "min"]
+- !private ["SH", "objectIdValue"]
+- !private ["SH", "pointee"]
+- ["SH", "rawValue"]
+- !private ["SH", "replicaSetWithPrimary"]
+- !private ["SH", "sharded"]
+- !private ["SH", "single"]
+- !private ["SH", "split"]
+- !private ["SH", "stringValue"]
+- !private ["SH", "subscript"]
+- ["SH", "unknown"]
+- !private ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "split"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "split"]
+- !private ["SM", "asArrayOf"]
+- !private ["SM", "compactMap"]
+- !private ["SM", "contains"]
+- !private ["SM", "init"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "map"]
+- !private ["SM", "min"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "asArrayOf"]
+- !private ["10Foundation19MutableDataProtocolP", "compactMap"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "min"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "split"]
+- !private ["So9NSCopyingP", "split"]
+- !private ["So21NSItemProviderReadingP", "split"]
+- !private ["So21NSItemProviderWritingP", "split"]
+- !private ["So16NSMutableCopyingP", "split"]
+- !private ["So8NSObjectC", "split"]
+- !private ["So8NSObjectP", "split"]
+- !private ["So14NSSecureCodingP", "split"]
+- !private ["So8NSStringC", "split"]
+- !private ["Sj", "init"]
+- ["10MongoSwift8ObjectIdV", "deinit"]
+- !private ["Sk", "asArrayOf"]
+- !private ["Sk", "baseAddress"]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "init"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "map"]
+- !private ["Sk", "min"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "asArrayOf"]
+- !private ["Sm", "compactMap"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "map"]
+- !private ["Sm", "min"]
+- !private ["Sm", "split"]
+- !private ["Sm", "subscript"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["SY", "replicaSetWithPrimary"]
+- !private ["SY", "sharded"]
+- !private ["SY", "single"]
+- ["SY", "unknown"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "asArrayOf"]
+- !private ["ST", "baseAddress"]
+- !private ["ST", "compactMap"]
+- !private ["ST", "contains"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "map"]
+- !private ["ST", "min"]
+- !private ["ST", "split"]
+- !private ["ST", "subscript"]
+- ["10MongoSwift17ServerDescriptionV", "=="]
+- ["10MongoSwift17ServerDescriptionV", "Bool"]
+- ["10MongoSwift17ServerDescriptionV", "ConnectionId"]
+- ["10MongoSwift17ServerDescriptionV", "Date"]
+- ["10MongoSwift17ServerDescriptionV", "Document"]
+- ["10MongoSwift17ServerDescriptionV", "Equatable"]
+- ["10MongoSwift17ServerDescriptionV", "Int32"]
+- ["10MongoSwift17ServerDescriptionV", "Int64"]
+- ["10MongoSwift17ServerDescriptionV", "MongoError"]
+- ["10MongoSwift17ServerDescriptionV", "ObjectId"]
+- ["10MongoSwift17ServerDescriptionV", "OpaquePointer"]
+- ["10MongoSwift17ServerDescriptionV", "ServerDescription"]
+- ["10MongoSwift17ServerDescriptionV", "ServerType"]
+- ["10MongoSwift17ServerDescriptionV", "String"]
+- !private ["10MongoSwift17ServerDescriptionV", "_findStringSwitchCase"]
+- ["10MongoSwift17ServerDescriptionV", "arbiters"]
+- ["10MongoSwift17ServerDescriptionV", "connectionId"]
+- ["10MongoSwift17ServerDescriptionV", "deinit"]
+- ["10MongoSwift17ServerDescriptionV", "electionId"]
+- ["10MongoSwift17ServerDescriptionV", "error"]
+- ["10MongoSwift17ServerDescriptionV", "hosts"]
+- ["10MongoSwift17ServerDescriptionV", "init"]
+- ["10MongoSwift17ServerDescriptionV", "lastUpdateTime"]
+- ["10MongoSwift17ServerDescriptionV", "lastWriteDate"]
+- ["10MongoSwift17ServerDescriptionV", "logicalSessionTimeoutMinutes"]
+- ["10MongoSwift17ServerDescriptionV", "maxWireVersion"]
+- ["10MongoSwift17ServerDescriptionV", "me"]
+- ["10MongoSwift17ServerDescriptionV", "minWireVersion"]
+- !private ["10MongoSwift17ServerDescriptionV", "mongoc_server_description_host"]
+- !private ["10MongoSwift17ServerDescriptionV", "mongoc_server_description_ismaster"]
+- !private ["10MongoSwift17ServerDescriptionV", "mongoc_server_description_round_trip_time"]
+- !private ["10MongoSwift17ServerDescriptionV", "mongoc_server_description_type"]
+- ["10MongoSwift17ServerDescriptionV", "opTime"]
+- ["10MongoSwift17ServerDescriptionV", "parseIsMaster"]
+- ["10MongoSwift17ServerDescriptionV", "passives"]
+- ["10MongoSwift17ServerDescriptionV", "primary"]
+- ["10MongoSwift17ServerDescriptionV", "roundTripTime"]
+- ["10MongoSwift17ServerDescriptionV", "setName"]
+- ["10MongoSwift17ServerDescriptionV", "setVersion"]
+- ["10MongoSwift17ServerDescriptionV", "tags"]
+- ["10MongoSwift17ServerDescriptionV", "type"]
+- ["10MongoSwift17ServerDescriptionV0C4TypeO", "=="]
+- ["10MongoSwift17ServerDescriptionV0C4TypeO", "RawValue"]
+- ["10MongoSwift17ServerDescriptionV0C4TypeO", "_Default_RawValue"]
+- !private ["10MongoSwift17ServerDescriptionV0C4TypeO", "_findStringSwitchCase"]
+- ["10MongoSwift17ServerDescriptionV0C4TypeO", "_rawHashValue"]
+- ["10MongoSwift17ServerDescriptionV0C4TypeO", "deinit"]
+- ["10MongoSwift17ServerDescriptionV0C4TypeO", "hash"]
+- ["10MongoSwift17ServerDescriptionV0C4TypeO", "hashValue"]
+- ["10MongoSwift17ServerDescriptionV0C4TypeO", "init"]
+- ["10MongoSwift17ServerDescriptionV0C4TypeO", "mongos"]
+- ["10MongoSwift17ServerDescriptionV0C4TypeO", "possiblePrimary"]
+- ["10MongoSwift17ServerDescriptionV0C4TypeO", "rawValue"]
+- ["10MongoSwift17ServerDescriptionV0C4TypeO", "rsArbiter"]
+- ["10MongoSwift17ServerDescriptionV0C4TypeO", "rsGhost"]
+- ["10MongoSwift17ServerDescriptionV0C4TypeO", "rsOther"]
+- ["10MongoSwift17ServerDescriptionV0C4TypeO", "rsPrimary"]
+- ["10MongoSwift17ServerDescriptionV0C4TypeO", "rsSecondary"]
+- ["10MongoSwift17ServerDescriptionV0C4TypeO", "standalone"]
+- ["10MongoSwift17ServerDescriptionV0C4TypeO", "unknown"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "assumingMemoryBound"]
+- !private ["Sx", "init"]
+- !private ["Sx", "pointee"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "split"]
+- !private ["Sy", "init"]
+- !private ["Sy", "split"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "split"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "split"]
+- ["10MongoSwift19TopologyDescriptionV", "=="]
+- !private ["10MongoSwift19TopologyDescriptionV", "Array"]
+- ["10MongoSwift19TopologyDescriptionV", "Bool"]
+- ["10MongoSwift19TopologyDescriptionV", "Equatable"]
+- ["10MongoSwift19TopologyDescriptionV", "Int64"]
+- ["10MongoSwift19TopologyDescriptionV", "MongoError"]
+- ["10MongoSwift19TopologyDescriptionV", "ObjectId"]
+- ["10MongoSwift19TopologyDescriptionV", "OpaquePointer"]
+- ["10MongoSwift19TopologyDescriptionV", "ServerDescription"]
+- ["10MongoSwift19TopologyDescriptionV", "String"]
+- ["10MongoSwift19TopologyDescriptionV", "TopologyDescription"]
+- ["10MongoSwift19TopologyDescriptionV", "TopologyType"]
+- !private ["10MongoSwift19TopologyDescriptionV", "UnsafeBufferPointer"]
+- !private ["10MongoSwift19TopologyDescriptionV", "_findStringSwitchCase"]
+- ["10MongoSwift19TopologyDescriptionV", "compatibilityError"]
+- ["10MongoSwift19TopologyDescriptionV", "deinit"]
+- ["10MongoSwift19TopologyDescriptionV", "hasReadableServer"]
+- ["10MongoSwift19TopologyDescriptionV", "hasWritableServer"]
+- ["10MongoSwift19TopologyDescriptionV", "init"]
+- ["10MongoSwift19TopologyDescriptionV", "logicalSessionTimeoutMinutes"]
+- ["10MongoSwift19TopologyDescriptionV", "maxElectionId"]
+- ["10MongoSwift19TopologyDescriptionV", "maxSetVersion"]
+- !private ["10MongoSwift19TopologyDescriptionV", "mongoc_server_descriptions_destroy_all"]
+- !private ["10MongoSwift19TopologyDescriptionV", "mongoc_topology_description_get_servers"]
+- !private ["10MongoSwift19TopologyDescriptionV", "mongoc_topology_description_type"]
+- ["10MongoSwift19TopologyDescriptionV", "servers"]
+- ["10MongoSwift19TopologyDescriptionV", "setName"]
+- !private ["10MongoSwift19TopologyDescriptionV", "size_t"]
+- ["10MongoSwift19TopologyDescriptionV", "stale"]
+- ["10MongoSwift19TopologyDescriptionV", "type"]
+- ["10MongoSwift19TopologyDescriptionV0C4TypeO", "=="]
+- ["10MongoSwift19TopologyDescriptionV0C4TypeO", "RawValue"]
+- ["10MongoSwift19TopologyDescriptionV0C4TypeO", "String"]
+- ["10MongoSwift19TopologyDescriptionV0C4TypeO", "_Default_RawValue"]
+- !private ["10MongoSwift19TopologyDescriptionV0C4TypeO", "_findStringSwitchCase"]
+- ["10MongoSwift19TopologyDescriptionV0C4TypeO", "_rawHashValue"]
+- ["10MongoSwift19TopologyDescriptionV0C4TypeO", "deinit"]
+- ["10MongoSwift19TopologyDescriptionV0C4TypeO", "hash"]
+- ["10MongoSwift19TopologyDescriptionV0C4TypeO", "hashValue"]
+- ["10MongoSwift19TopologyDescriptionV0C4TypeO", "init"]
+- ["10MongoSwift19TopologyDescriptionV0C4TypeO", "rawValue"]
+- ["10MongoSwift19TopologyDescriptionV0C4TypeO", "replicaSetNoPrimary"]
+- ["10MongoSwift19TopologyDescriptionV0C4TypeO", "replicaSetWithPrimary"]
+- ["10MongoSwift19TopologyDescriptionV0C4TypeO", "sharded"]
+- ["10MongoSwift19TopologyDescriptionV0C4TypeO", "single"]
+- ["10MongoSwift19TopologyDescriptionV0C4TypeO", "unknown"]
+- !private ["s6UInt16V", "deinit"]
+- !private ["s6UInt16V", "init"]
+- !private ["SR", "init"]
+- !private ["SP", "pointee"]
+- !private ["SW", "baseAddress"]
+- !private ["SV", "assumingMemoryBound"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "asArrayOf"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "min"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "assumingMemoryBound"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "split"]
+- !private ["s24_DestructorSafeContainerP", "asArrayOf"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "min"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "split"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "split"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "split"]
+- !private ["s19_HasContiguousBytesP", "asArrayOf"]
+- !private ["s19_HasContiguousBytesP", "baseAddress"]
+- !private ["s19_HasContiguousBytesP", "compactMap"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s19_HasContiguousBytesP", "min"]
+- !private ["s19_HasContiguousBytesP", "split"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "asArrayOf"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "min"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "split"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "split"]
+- !private ["s21_ObjectiveCBridgeableP", "asArrayOf"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "min"]
+- !private ["s21_ObjectiveCBridgeableP", "split"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s8_PointerP", "assumingMemoryBound"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s14_StringElementP", "init"]
+- !private ["So19_mongoc_host_list_tV", "host"]
+- !private ["So19_mongoc_host_list_tV", "port"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "10MongoSwift4BSONO"
+- !private "10MongoSwift9BSONValueP"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "10MongoSwift13CodableNumberP"
+- !private "Sl"
+- !private "SL"
+- "10MongoSwift12ConnectionIdV"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "10MongoSwift8DocumentV"
+- !private "10MongoSwift16DocumentIteratorC"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- "10MongoSwift8ObjectIdV"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- "10MongoSwift17ServerDescriptionV"
+- "10MongoSwift17ServerDescriptionV0C4TypeO"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "10MongoSwift19TopologyDescriptionV"
+- "10MongoSwift19TopologyDescriptionV0C4TypeO"
+- !private "s6UInt16V"
+- !private "SR"
+- !private "SP"
+- !private "SW"
+- !private "SV"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s14_StringElementP"
+- !private "So19_mongoc_host_list_tV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-mongoc/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-bson/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0ca20b0c05d3c5265f103212c746118e"

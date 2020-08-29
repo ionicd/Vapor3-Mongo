@@ -1,0 +1,19 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "439e1c1ac9d3fe516ef29d45ca03cfef"
+build_time: [1598715105, 341082000]
+inputs:
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/core/Sources/Async/Async+NIO.swift": [1598714932, 222187096]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/core/Sources/Async/AsyncError.swift": [1598714932, 222630599]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/core/Sources/Async/Collection+Future.swift": [1598714932, 223418511]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/core/Sources/Async/Deprecated.swift": [1598714932, 224036340]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/core/Sources/Async/Exports.swift": [1598714932, 224366334]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/core/Sources/Async/Future+DoCatch.swift": [1598714932, 224770158]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/core/Sources/Async/Future+Flatten.swift": [1598714932, 225220139]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/core/Sources/Async/Future+Global.swift": [1598714932, 225850892]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/core/Sources/Async/Future+Map.swift": [1598714932, 226251279]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/core/Sources/Async/Future+Transform.swift": [1598714932, 226639761]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/core/Sources/Async/Future+Variadic.swift": [1598714932, 227219246]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/core/Sources/Async/Future+Void.swift": [1598714932, 227638164]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/core/Sources/Async/FutureType.swift": [1598714932, 228148306]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/core/Sources/Async/QueueHandler.swift": [1598714932, 228958615]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/core/Sources/Async/Worker.swift": [1598714932, 229513784]

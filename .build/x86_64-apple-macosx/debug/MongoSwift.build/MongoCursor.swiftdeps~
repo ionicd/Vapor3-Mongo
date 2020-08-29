@@ -1,0 +1,305 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ClosedCursorError"
+- "MongoCursor"
+provides-nominal:
+- "10MongoSwift0A6CursorC"
+- "10MongoSwift0A6CursorC5StateO"
+provides-member:
+- ["10MongoSwift0A6CursorC", ""]
+- ["10MongoSwift0A6CursorC5StateO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "BSONDecoder"
+- !private "BSONPointer"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ClientSession"
+- "ClosedCursorError"
+- "Codable"
+- "Connection"
+- "CursorType"
+- !private "Document"
+- "Error"
+- !private "FloatLiteralType"
+- "Int64"
+- !private "IntegerLiteralType"
+- "IteratorProtocol"
+- "MongoClient"
+- "MongoCursor"
+- "MongoError"
+- !private "NextOperation"
+- "OpaquePointer"
+- "Sequence"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- !private "UnsafeMutablePointer"
+- "UserError"
+- !private "bson_error_t"
+- !private "extractMongoError"
+- !private "mongoc_cursor_destroy"
+- !private "mongoc_cursor_error_document"
+- !private "mongoc_cursor_get_id"
+- !private "mongoc_cursor_more"
+- !private "releaseConnection"
+- !private "resolveConnection"
+- !private "||"
+depends-member:
+- !private ["10MongoSwift9BSONValueP", "init"]
+- !private ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "deallocate"]
+- !private ["s7CVarArgP", "deinitialize"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["Sl", "init"]
+- !private ["SL", "allocate"]
+- !private ["SL", "deallocate"]
+- !private ["SL", "deinitialize"]
+- !private ["SL", "pointee"]
+- !private ["10MongoSwift10CursorTypeO", "isTailable"]
+- !private ["10MongoSwift10CursorTypeO", "nonTailable"]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "deallocate"]
+- !private ["s28CustomDebugStringConvertibleP", "deinitialize"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "deallocate"]
+- !private ["s17CustomReflectableP", "deinitialize"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "init"]
+- !private ["10MongoSwift8DocumentV", "deinit"]
+- !private ["10MongoSwift8DocumentV", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "allocate"]
+- !private ["SQ", "deallocate"]
+- !private ["SQ", "deinitialize"]
+- !private ["SQ", "executeOperation"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isTailable"]
+- !private ["SQ", "nonTailable"]
+- !private ["SQ", "pointee"]
+- !private ["s5ErrorP", "errorDescription"]
+- !private ["s5ErrorP", "invalidArgumentError"]
+- ["s5ErrorP", "logicError"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["SH", "allocate"]
+- !private ["SH", "deallocate"]
+- !private ["SH", "deinitialize"]
+- !private ["SH", "init"]
+- !private ["SH", "isTailable"]
+- !private ["SH", "nonTailable"]
+- !private ["SH", "pointee"]
+- !private ["St", "ClosedCursorError"]
+- !private ["St", "Document"]
+- ["St", "Element"]
+- ["St", "Iterator"]
+- !private ["St", "NextOperation"]
+- !private ["St", "UnsafeMutablePointer"]
+- !private ["St", "UserError"]
+- ["St", ""]
+- ["St", "_Default_Element"]
+- ["St", "_Default_Iterator"]
+- ["St", "_copyContents"]
+- ["St", "_copyToContiguousArray"]
+- ["St", "_customContainsEquatableElement"]
+- !private ["St", "bson_error_t"]
+- !private ["St", "close"]
+- !private ["St", "cursorType"]
+- !private ["St", "decoder"]
+- !private ["St", "error"]
+- !private ["St", "extractMongoError"]
+- !private ["St", "getMongocError"]
+- ["St", "makeIterator"]
+- !private ["St", "mongoc_cursor_destroy"]
+- !private ["St", "mongoc_cursor_error_document"]
+- !private ["St", "mongoc_cursor_get_id"]
+- !private ["St", "mongoc_cursor_more"]
+- ["St", "next"]
+- !private ["St", "releaseConnection"]
+- !private ["St", "resolveConnection"]
+- !private ["St", "state"]
+- ["St", "underestimatedCount"]
+- ["St", "withContiguousStorageIfAvailable"]
+- !private ["10Foundation14LocalizedErrorP", "errorDescription"]
+- !private ["10Foundation14LocalizedErrorP", "invalidArgumentError"]
+- ["10Foundation14LocalizedErrorP", "logicError"]
+- !private ["10MongoSwift0A6ClientC", "executeOperation"]
+- ["10MongoSwift0A6CursorC", "BSONDecoder"]
+- !private ["10MongoSwift0A6CursorC", "BSONPointer"]
+- ["10MongoSwift0A6CursorC", "Bool"]
+- ["10MongoSwift0A6CursorC", "ClientSession"]
+- !private ["10MongoSwift0A6CursorC", "ClosedCursorError"]
+- ["10MongoSwift0A6CursorC", "Connection"]
+- ["10MongoSwift0A6CursorC", "CursorType"]
+- !private ["10MongoSwift0A6CursorC", "Document"]
+- ["10MongoSwift0A6CursorC", "Element"]
+- ["10MongoSwift0A6CursorC", "Error"]
+- ["10MongoSwift0A6CursorC", "Int64"]
+- ["10MongoSwift0A6CursorC", "Iterator"]
+- ["10MongoSwift0A6CursorC", "MongoClient"]
+- ["10MongoSwift0A6CursorC", "MongoError"]
+- !private ["10MongoSwift0A6CursorC", "NextOperation"]
+- ["10MongoSwift0A6CursorC", "OpaquePointer"]
+- ["10MongoSwift0A6CursorC", "State"]
+- !private ["10MongoSwift0A6CursorC", "UnsafeMutablePointer"]
+- !private ["10MongoSwift0A6CursorC", "UserError"]
+- ["10MongoSwift0A6CursorC", "_Default_Element"]
+- ["10MongoSwift0A6CursorC", "_Default_Iterator"]
+- ["10MongoSwift0A6CursorC", "_copyContents"]
+- ["10MongoSwift0A6CursorC", "_copyToContiguousArray"]
+- ["10MongoSwift0A6CursorC", "_customContainsEquatableElement"]
+- !private ["10MongoSwift0A6CursorC", "bson_error_t"]
+- !private ["10MongoSwift0A6CursorC", "close"]
+- !private ["10MongoSwift0A6CursorC", "cursorType"]
+- ["10MongoSwift0A6CursorC", "decoder"]
+- ["10MongoSwift0A6CursorC", "deinit"]
+- ["10MongoSwift0A6CursorC", "error"]
+- !private ["10MongoSwift0A6CursorC", "extractMongoError"]
+- !private ["10MongoSwift0A6CursorC", "getMongocError"]
+- ["10MongoSwift0A6CursorC", "id"]
+- ["10MongoSwift0A6CursorC", "init"]
+- ["10MongoSwift0A6CursorC", "isAlive"]
+- ["10MongoSwift0A6CursorC", "makeIterator"]
+- !private ["10MongoSwift0A6CursorC", "mongoc_cursor_destroy"]
+- !private ["10MongoSwift0A6CursorC", "mongoc_cursor_error_document"]
+- !private ["10MongoSwift0A6CursorC", "mongoc_cursor_get_id"]
+- !private ["10MongoSwift0A6CursorC", "mongoc_cursor_more"]
+- ["10MongoSwift0A6CursorC", "next"]
+- ["10MongoSwift0A6CursorC", "nextOrError"]
+- !private ["10MongoSwift0A6CursorC", "releaseConnection"]
+- !private ["10MongoSwift0A6CursorC", "resolveConnection"]
+- ["10MongoSwift0A6CursorC", "state"]
+- ["10MongoSwift0A6CursorC", "underestimatedCount"]
+- ["10MongoSwift0A6CursorC", "withContiguousStorageIfAvailable"]
+- !private ["10MongoSwift0A5ErrorP", "errorDescription"]
+- !private ["10MongoSwift0A5ErrorP", "invalidArgumentError"]
+- ["10MongoSwift0A5ErrorP", "logicError"]
+- !private ["10MongoSwift13NextOperationV", "deinit"]
+- !private ["10MongoSwift13NextOperationV", "init"]
+- !private ["10MongoSwift19NextOperationTargetO", "cursor"]
+- !private ["10MongoSwift9OperationP", "init"]
+- !private ["ST", "ClosedCursorError"]
+- !private ["ST", "Document"]
+- ["ST", "Element"]
+- ["ST", "Iterator"]
+- !private ["ST", "NextOperation"]
+- !private ["ST", "UnsafeMutablePointer"]
+- !private ["ST", "UserError"]
+- ["ST", ""]
+- ["ST", "_Default_Element"]
+- ["ST", "_Default_Iterator"]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- ["ST", "_customContainsEquatableElement"]
+- !private ["ST", "bson_error_t"]
+- !private ["ST", "close"]
+- !private ["ST", "cursorType"]
+- !private ["ST", "decoder"]
+- !private ["ST", "error"]
+- !private ["ST", "extractMongoError"]
+- !private ["ST", "getMongocError"]
+- !private ["ST", "init"]
+- ["ST", "makeIterator"]
+- !private ["ST", "mongoc_cursor_destroy"]
+- !private ["ST", "mongoc_cursor_error_document"]
+- !private ["ST", "mongoc_cursor_get_id"]
+- !private ["ST", "mongoc_cursor_more"]
+- ["ST", "next"]
+- !private ["ST", "releaseConnection"]
+- !private ["ST", "resolveConnection"]
+- !private ["ST", "state"]
+- ["ST", "underestimatedCount"]
+- ["ST", "withContiguousStorageIfAvailable"]
+- ["10MongoSwift0A6CursorC5StateO", "ClientSession"]
+- ["10MongoSwift0A6CursorC5StateO", "Connection"]
+- ["10MongoSwift0A6CursorC5StateO", "MongoClient"]
+- ["10MongoSwift0A6CursorC5StateO", "OpaquePointer"]
+- ["10MongoSwift0A6CursorC5StateO", "closed"]
+- ["10MongoSwift0A6CursorC5StateO", "open"]
+- !private ["Sx", "allocate"]
+- !private ["Sx", "deallocate"]
+- !private ["Sx", "deinitialize"]
+- !private ["Sx", "pointee"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "deallocate"]
+- !private ["Sp", "deinitialize"]
+- !private ["Sp", "pointee"]
+- !private ["10MongoSwift9UserErrorO", "deinit"]
+- !private ["10MongoSwift9UserErrorO", "invalidArgumentError"]
+- ["10MongoSwift9UserErrorO", "logicError"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "deallocate"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "deinitialize"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "deallocate"]
+- !private ["s8_PointerP", "deinitialize"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["So13_bson_error_tV", "init"]
+depends-nominal:
+- !private "10MongoSwift9BSONValueP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10MongoSwift10CursorTypeO"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "10MongoSwift8DocumentV"
+- !private "SE"
+- !private "SQ"
+- "s5ErrorP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "SH"
+- "St"
+- "10Foundation14LocalizedErrorP"
+- !private "10MongoSwift0A6ClientC"
+- "10MongoSwift0A6CursorC"
+- "10MongoSwift0A5ErrorP"
+- !private "10MongoSwift13NextOperationV"
+- !private "10MongoSwift19NextOperationTargetO"
+- !private "10MongoSwift9OperationP"
+- "ST"
+- "10MongoSwift0A6CursorC5StateO"
+- !private "Sx"
+- !private "Sp"
+- "10MongoSwift9UserErrorO"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s8_PointerP"
+- !private "So13_bson_error_tV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-mongoc/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-bson/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "21066bdbf163444f1a05e570274d6db7"

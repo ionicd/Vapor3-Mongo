@@ -1,0 +1,23 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "0cbbd1e9f68094fae4ec9dc4858bddc5"
+build_time: [1598715116, 771437000]
+inputs:
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/crypto/Sources/Crypto/BCrypt/BCryptDigest.swift": [1598714936, 19370406]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/crypto/Sources/Crypto/Cipher/AuthenticatedCipher.swift": [1598714936, 19726130]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/crypto/Sources/Crypto/Cipher/AuthenticatedCipherAlgorithm.swift": [1598714936, 19957309]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/crypto/Sources/Crypto/Cipher/Cipher.swift": [1598714936, 20375517]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/crypto/Sources/Crypto/Cipher/CipherAlgorithm.swift": [1598714936, 20629924]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/crypto/Sources/Crypto/Cipher/OpenSSLCipherAlgorithm.swift": [1598714936, 20949725]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/crypto/Sources/Crypto/Cipher/OpenSSLStreamCipher.swift": [1598714936, 21221827]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/crypto/Sources/Crypto/Digest/Digest.swift": [1598714936, 21600981]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/crypto/Sources/Crypto/Digest/DigestAlgorithm.swift": [1598714936, 21832257]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/crypto/Sources/Crypto/MAC/HMAC.swift": [1598714936, 22230959]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/crypto/Sources/Crypto/MAC/OTP.swift": [1598714936, 22563609]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/crypto/Sources/Crypto/RSA/RSA.swift": [1598714936, 23179903]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/crypto/Sources/Crypto/RSA/RSAKey.swift": [1598714936, 23537392]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/crypto/Sources/Crypto/RSA/RSAPadding.swift": [1598714936, 23836666]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/crypto/Sources/Crypto/Random/CryptoRandom.swift": [1598714936, 24226110]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/crypto/Sources/Crypto/Utilities/Base32.swift": [1598714936, 24628471]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/crypto/Sources/Crypto/Utilities/CryptoError.swift": [1598714936, 24937950]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/crypto/Sources/Crypto/Utilities/Deprecated.swift": [1598714936, 25239745]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/crypto/Sources/Crypto/Utilities/Exports.swift": [1598714936, 25477465]

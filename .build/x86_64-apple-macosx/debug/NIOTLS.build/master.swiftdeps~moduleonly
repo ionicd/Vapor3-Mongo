@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "007598ffb5ac6b66f09137a608b195e2"
+build_time: [1598715105, 339770000]
+inputs:
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOTLS/ApplicationProtocolNegotiationHandler.swift": [1598714933, 900320077]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOTLS/SNIHandler.swift": [1598714933, 900890424]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOTLS/TLSEvents.swift": [1598714933, 901265579]

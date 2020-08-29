@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "2e33dbd0ce8852e40a0f51fbd6c56c92"
+build_time: [1598715116, 769402000]
+inputs:
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/multipart/Sources/Multipart/Exports.swift": [1598714938, 688216221]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/multipart/Sources/Multipart/FormDataDecoder.swift": [1598714938, 688551905]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/multipart/Sources/Multipart/FormDataEncoder.swift": [1598714938, 688794797]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/multipart/Sources/Multipart/MultipartError.swift": [1598714938, 688984875]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/multipart/Sources/Multipart/MultipartParser.swift": [1598714938, 689324607]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/multipart/Sources/Multipart/MultipartPart.swift": [1598714938, 689566390]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/multipart/Sources/Multipart/MultipartPartConvertible.swift": [1598714938, 689855144]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/multipart/Sources/Multipart/MultipartSerializer.swift": [1598714938, 690160210]

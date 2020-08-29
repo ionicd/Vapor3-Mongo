@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/VaporExample.build/master.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/Sources/VaporExample/app.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/VaporExample.build/app.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/VaporExample.build/app.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/VaporExample.build/app~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/VaporExample.build/app.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/Sources/VaporExample/configure.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/VaporExample.build/configure.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/VaporExample.build/configure.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/VaporExample.build/configure~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/VaporExample.build/configure.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/Sources/VaporExample/main.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/VaporExample.build/main.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/VaporExample.build/main.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/VaporExample.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/VaporExample.build/main.swiftdeps"
+  },
+  "/Users/saurav/Documents/VaporEx/Sources/VaporExample/routes.swift": {
+    "dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/VaporExample.build/routes.d",
+    "object": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/VaporExample.build/routes.swift.o",
+    "swiftmodule": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/VaporExample.build/routes~partial.swiftmodule",
+    "swift-dependencies": "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/VaporExample.build/routes.swiftdeps"
+  }
+}

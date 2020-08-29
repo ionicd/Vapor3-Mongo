@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "1ba24625991242f7327710a5536ea785"
+build_time: [1598714949, 946279000]
+inputs:
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/core/Sources/Debugging/Debuggable.swift": [1598714932, 247506702]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/core/Sources/Debugging/Demangler.swift": [1598714932, 247805512]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/core/Sources/Debugging/SourceLocation.swift": [1598714932, 248042201]

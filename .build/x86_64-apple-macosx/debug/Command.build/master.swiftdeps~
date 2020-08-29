@@ -1,0 +1,20 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "4c25a83cfd491df7ef34ad353d66d524"
+build_time: [1598715020, 742066000]
+inputs:
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/console/Sources/Command/Base/CommandOption.swift": [1598714934, 289608451]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/console/Sources/Command/Base/CommandRunnable.swift": [1598714934, 289887801]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/console/Sources/Command/Command/Command.swift": [1598714934, 290221478]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/console/Sources/Command/Command/CommandArgument.swift": [1598714934, 290449907]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/console/Sources/Command/Config/CommandConfig.swift": [1598714934, 290782792]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/console/Sources/Command/Config/Commands.swift": [1598714934, 291024346]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/console/Sources/Command/Group/BasicCommandGroup.swift": [1598714934, 291304749]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/console/Sources/Command/Group/CommandGroup.swift": [1598714934, 291647413]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/console/Sources/Command/Run/CommandContext.swift": [1598714934, 292341035]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/console/Sources/Command/Run/CommandInput.swift": [1598714934, 292771871]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/console/Sources/Command/Run/Console+Run.swift": [1598714934, 293059277]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/console/Sources/Command/Run/Output+Autocomplete.swift": [1598714934, 293354469]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/console/Sources/Command/Run/Output+Help.swift": [1598714934, 293949221]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/console/Sources/Command/Utilities/CommandError.swift": [1598714934, 294491738]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/console/Sources/Command/Utilities/Exports.swift": [1598714934, 294773547]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/console/Sources/Command/Utilities/Utilities.swift": [1598714934, 295108777]

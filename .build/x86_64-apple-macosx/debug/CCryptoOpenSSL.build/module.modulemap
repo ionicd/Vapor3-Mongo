@@ -1,0 +1,4 @@
+module CCryptoOpenSSL {
+    umbrella "/Users/saurav/Documents/VaporEx/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include"
+    export *
+}

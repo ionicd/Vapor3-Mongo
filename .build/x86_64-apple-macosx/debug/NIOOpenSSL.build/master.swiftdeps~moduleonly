@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "b432eebf26d59369c16170f326f1485e"
+build_time: [1598715109, 26503000]
+inputs:
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/ByteBufferBIO.swift": [1598714936, 808239104]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/IdentityVerification.swift": [1598714936, 808533380]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/OpenSSLClientHandler.swift": [1598714936, 808774045]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/OpenSSLHandler.swift": [1598714936, 809227517]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/OpenSSLServerHandler.swift": [1598714936, 809476807]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/PosixPort.swift": [1598714936, 809717772]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLCertificate.swift": [1598714936, 810021517]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLConnection.swift": [1598714936, 810510473]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLContext.swift": [1598714936, 810948803]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLErrors.swift": [1598714936, 811342611]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLInit.swift": [1598714936, 811586801]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLPKCS12Bundle.swift": [1598714936, 811882873]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLPointerTricks.swift": [1598714936, 812178456]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLPrivateKey.swift": [1598714936, 812536057]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLPublicKey.swift": [1598714936, 812780897]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLVerificationCallbacks.swift": [1598714936, 813089774]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/TLSConfiguration.swift": [1598714936, 813402985]

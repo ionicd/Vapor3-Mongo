@@ -1,0 +1,22 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "544f1c9d7dd140c200c2f3055999bb79"
+build_time: [1598715001, 675918000]
+inputs:
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/validation/Sources/Validation/Exports.swift": [1598714931, 602012334]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/validation/Sources/Validation/Validatable.swift": [1598714931, 602359531]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/validation/Sources/Validation/ValidationError.swift": [1598714931, 602766067]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/validation/Sources/Validation/Validations.swift": [1598714931, 603215363]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/validation/Sources/Validation/Validator.swift": [1598714931, 604005966]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/validation/Sources/Validation/ValidatorType.swift": [1598714931, 604364109]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/validation/Sources/Validation/Validators/AndValidator.swift": [1598714931, 604963812]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/validation/Sources/Validation/Validators/CharacterSetValidator.swift": [1598714931, 605532471]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/validation/Sources/Validation/Validators/CountValidator.swift": [1598714931, 605944727]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/validation/Sources/Validation/Validators/EmailValidator.swift": [1598714931, 606460875]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/validation/Sources/Validation/Validators/EmptyValidator.swift": [1598714931, 606782451]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/validation/Sources/Validation/Validators/InValidator.swift": [1598714931, 607536950]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/validation/Sources/Validation/Validators/NilIgnoringValidator.swift": [1598714931, 608051641]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/validation/Sources/Validation/Validators/NilValidator.swift": [1598714931, 608427593]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/validation/Sources/Validation/Validators/NotValidator.swift": [1598714931, 608802520]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/validation/Sources/Validation/Validators/OrValidator.swift": [1598714931, 609172611]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/validation/Sources/Validation/Validators/RangeValidator.swift": [1598714931, 609567276]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/validation/Sources/Validation/Validators/URLValidator.swift": [1598714931, 609980613]

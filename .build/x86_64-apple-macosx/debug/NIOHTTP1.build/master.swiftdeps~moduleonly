@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "8036cfba4b65276b571015ecf4f1a5c5"
+build_time: [1598715105, 341634000]
+inputs:
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOHTTP1/ByteCollectionUtils.swift": [1598714933, 892521158]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPDecoder.swift": [1598714933, 893410117]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPEncoder.swift": [1598714933, 893918645]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPPipelineSetup.swift": [1598714933, 894363382]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPResponseCompressor.swift": [1598714933, 894725892]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPServerPipelineHandler.swift": [1598714933, 895227756]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPServerProtocolErrorHandler.swift": [1598714933, 895710270]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPTypes.swift": [1598714933, 896795905]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPUpgradeHandler.swift": [1598714933, 897293201]

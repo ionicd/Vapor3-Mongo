@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "a58e913f2bf5c8aedf861fbca250275a"
+build_time: [1598715116, 770185000]
+inputs:
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Codable/URLEncodedFormDecoder.swift": [1598714938, 979610039]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Codable/URLEncodedFormEncoder.swift": [1598714938, 979848357]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Data/URLEncodedFormData.swift": [1598714938, 980241513]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Data/URLEncodedFormDataConvertible.swift": [1598714938, 980694586]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Data/URLEncodedFormParser.swift": [1598714938, 980986056]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Data/URLEncodedFormSerializer.swift": [1598714938, 981249025]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Utilities/Exports.swift": [1598714938, 981551432]
+  "/Users/saurav/Documents/VaporEx/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Utilities/URLEncodedFormError.swift": [1598714938, 981777067]

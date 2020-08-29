@@ -1,0 +1,380 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Overwritable"
+provides-nominal:
+- "10MongoSwift12OverwritableP"
+- "Sb"
+- "s5Int32V"
+- "s5Int64V"
+- "Sd"
+- "10MongoSwift10Decimal128V"
+- "10MongoSwift8ObjectIdV"
+- "10MongoSwift9TimestampV"
+- "10Foundation4DateV"
+provides-member:
+- ["10MongoSwift12OverwritableP", ""]
+- ["Sb", ""]
+- ["s5Int32V", ""]
+- ["s5Int64V", ""]
+- ["Sd", ""]
+- ["10MongoSwift10Decimal128V", ""]
+- ["10MongoSwift8ObjectIdV", ""]
+- ["10MongoSwift9TimestampV", ""]
+- ["10Foundation4DateV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "BSONValue"
+- "Bool"
+- "Date"
+- "Decimal128"
+- "DocumentIterator"
+- "Double"
+- "Int32"
+- "Int64"
+- "ObjectId"
+- "Overwritable"
+- "Timestamp"
+- !private "bson_iter_overwrite_bool"
+- !private "bson_iter_overwrite_date_time"
+- !private "bson_iter_overwrite_decimal128"
+- !private "bson_iter_overwrite_double"
+- !private "bson_iter_overwrite_int32"
+- !private "bson_iter_overwrite_int64"
+- !private "bson_iter_overwrite_oid"
+- !private "bson_iter_overwrite_timestamp"
+- !private "withUnsafePointer"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "bson_iter_overwrite_double"]
+- !private ["s18AdditiveArithmeticP", "bson_iter_overwrite_int32"]
+- !private ["s18AdditiveArithmeticP", "bson_iter_overwrite_int64"]
+- ["s18AdditiveArithmeticP", "writeToCurrentPosition"]
+- ["10MongoSwift9BSONValueP", "DocumentIterator"]
+- ["10MongoSwift9BSONValueP", ""]
+- !private ["10MongoSwift9BSONValueP", "bson_iter_overwrite_bool"]
+- !private ["10MongoSwift9BSONValueP", "bson_iter_overwrite_date_time"]
+- !private ["10MongoSwift9BSONValueP", "bson_iter_overwrite_decimal128"]
+- !private ["10MongoSwift9BSONValueP", "bson_iter_overwrite_double"]
+- !private ["10MongoSwift9BSONValueP", "bson_iter_overwrite_int32"]
+- !private ["10MongoSwift9BSONValueP", "bson_iter_overwrite_int64"]
+- !private ["10MongoSwift9BSONValueP", "bson_iter_overwrite_oid"]
+- !private ["10MongoSwift9BSONValueP", "bson_iter_overwrite_timestamp"]
+- !private ["10MongoSwift9BSONValueP", "decimal128"]
+- !private ["10MongoSwift9BSONValueP", "increment"]
+- !private ["10MongoSwift9BSONValueP", "msSinceEpoch"]
+- !private ["10MongoSwift9BSONValueP", "oid"]
+- !private ["10MongoSwift9BSONValueP", "timestamp"]
+- !private ["10MongoSwift9BSONValueP", "withUnsafePointer"]
+- ["10MongoSwift9BSONValueP", "writeToCurrentPosition"]
+- !private ["SB", "bson_iter_overwrite_double"]
+- ["SB", "writeToCurrentPosition"]
+- !private ["Sz", "bson_iter_overwrite_int32"]
+- !private ["Sz", "bson_iter_overwrite_int64"]
+- ["Sz", "writeToCurrentPosition"]
+- ["Sb", "DocumentIterator"]
+- !private ["Sb", "bson_iter_overwrite_bool"]
+- ["Sb", "deinit"]
+- ["Sb", "writeToCurrentPosition"]
+- !private ["s7CVarArgP", "bson_iter_overwrite_bool"]
+- !private ["s7CVarArgP", "bson_iter_overwrite_double"]
+- !private ["s7CVarArgP", "bson_iter_overwrite_int32"]
+- !private ["s7CVarArgP", "bson_iter_overwrite_int64"]
+- ["s7CVarArgP", "writeToCurrentPosition"]
+- !private ["10MongoSwift13CodableNumberP", "bson_iter_overwrite_double"]
+- !private ["10MongoSwift13CodableNumberP", "bson_iter_overwrite_int32"]
+- !private ["10MongoSwift13CodableNumberP", "bson_iter_overwrite_int64"]
+- ["10MongoSwift13CodableNumberP", "writeToCurrentPosition"]
+- !private ["SL", "bson_iter_overwrite_date_time"]
+- !private ["SL", "bson_iter_overwrite_double"]
+- !private ["SL", "bson_iter_overwrite_int32"]
+- !private ["SL", "bson_iter_overwrite_int64"]
+- !private ["SL", "msSinceEpoch"]
+- ["SL", "writeToCurrentPosition"]
+- !private ["s28CustomDebugStringConvertibleP", "bson_iter_overwrite_date_time"]
+- !private ["s28CustomDebugStringConvertibleP", "bson_iter_overwrite_double"]
+- !private ["s28CustomDebugStringConvertibleP", "msSinceEpoch"]
+- ["s28CustomDebugStringConvertibleP", "writeToCurrentPosition"]
+- !private ["s17CustomReflectableP", "bson_iter_overwrite_bool"]
+- !private ["s17CustomReflectableP", "bson_iter_overwrite_date_time"]
+- !private ["s17CustomReflectableP", "bson_iter_overwrite_double"]
+- !private ["s17CustomReflectableP", "bson_iter_overwrite_int32"]
+- !private ["s17CustomReflectableP", "bson_iter_overwrite_int64"]
+- !private ["s17CustomReflectableP", "msSinceEpoch"]
+- ["s17CustomReflectableP", "writeToCurrentPosition"]
+- !private ["s23CustomStringConvertibleP", "bson_iter_overwrite_bool"]
+- !private ["s23CustomStringConvertibleP", "bson_iter_overwrite_date_time"]
+- !private ["s23CustomStringConvertibleP", "bson_iter_overwrite_decimal128"]
+- !private ["s23CustomStringConvertibleP", "bson_iter_overwrite_double"]
+- !private ["s23CustomStringConvertibleP", "bson_iter_overwrite_int32"]
+- !private ["s23CustomStringConvertibleP", "bson_iter_overwrite_int64"]
+- !private ["s23CustomStringConvertibleP", "bson_iter_overwrite_oid"]
+- !private ["s23CustomStringConvertibleP", "decimal128"]
+- !private ["s23CustomStringConvertibleP", "msSinceEpoch"]
+- !private ["s23CustomStringConvertibleP", "oid"]
+- !private ["s23CustomStringConvertibleP", "withUnsafePointer"]
+- ["s23CustomStringConvertibleP", "writeToCurrentPosition"]
+- ["10Foundation4DateV", "DocumentIterator"]
+- !private ["10Foundation4DateV", "bson_iter_overwrite_date_time"]
+- ["10Foundation4DateV", "deinit"]
+- !private ["10Foundation4DateV", "msSinceEpoch"]
+- ["10Foundation4DateV", "writeToCurrentPosition"]
+- ["10MongoSwift10Decimal128V", "DocumentIterator"]
+- !private ["10MongoSwift10Decimal128V", "bson_iter_overwrite_decimal128"]
+- !private ["10MongoSwift10Decimal128V", "decimal128"]
+- ["10MongoSwift10Decimal128V", "deinit"]
+- !private ["10MongoSwift10Decimal128V", "withUnsafePointer"]
+- ["10MongoSwift10Decimal128V", "writeToCurrentPosition"]
+- ["Se", "DocumentIterator"]
+- !private ["Se", "bson_iter_overwrite_bool"]
+- !private ["Se", "bson_iter_overwrite_date_time"]
+- !private ["Se", "bson_iter_overwrite_decimal128"]
+- !private ["Se", "bson_iter_overwrite_double"]
+- !private ["Se", "bson_iter_overwrite_int32"]
+- !private ["Se", "bson_iter_overwrite_int64"]
+- !private ["Se", "bson_iter_overwrite_oid"]
+- !private ["Se", "bson_iter_overwrite_timestamp"]
+- !private ["Se", "decimal128"]
+- !private ["Se", "increment"]
+- !private ["Se", "msSinceEpoch"]
+- !private ["Se", "oid"]
+- !private ["Se", "timestamp"]
+- !private ["Se", "withUnsafePointer"]
+- ["Se", "writeToCurrentPosition"]
+- !private ["10MongoSwift16DocumentIteratorC", "withMutableBSONIterPointer"]
+- ["Sd", "DocumentIterator"]
+- !private ["Sd", "bson_iter_overwrite_double"]
+- ["Sd", "deinit"]
+- ["Sd", "writeToCurrentPosition"]
+- ["SE", "DocumentIterator"]
+- !private ["SE", "bson_iter_overwrite_bool"]
+- !private ["SE", "bson_iter_overwrite_date_time"]
+- !private ["SE", "bson_iter_overwrite_decimal128"]
+- !private ["SE", "bson_iter_overwrite_double"]
+- !private ["SE", "bson_iter_overwrite_int32"]
+- !private ["SE", "bson_iter_overwrite_int64"]
+- !private ["SE", "bson_iter_overwrite_oid"]
+- !private ["SE", "bson_iter_overwrite_timestamp"]
+- !private ["SE", "decimal128"]
+- !private ["SE", "increment"]
+- !private ["SE", "msSinceEpoch"]
+- !private ["SE", "oid"]
+- !private ["SE", "timestamp"]
+- !private ["SE", "withUnsafePointer"]
+- ["SE", "writeToCurrentPosition"]
+- !private ["SQ", "bson_iter_overwrite_bool"]
+- !private ["SQ", "bson_iter_overwrite_date_time"]
+- !private ["SQ", "bson_iter_overwrite_decimal128"]
+- !private ["SQ", "bson_iter_overwrite_double"]
+- !private ["SQ", "bson_iter_overwrite_int32"]
+- !private ["SQ", "bson_iter_overwrite_int64"]
+- !private ["SQ", "bson_iter_overwrite_oid"]
+- !private ["SQ", "bson_iter_overwrite_timestamp"]
+- !private ["SQ", "decimal128"]
+- !private ["SQ", "increment"]
+- !private ["SQ", "msSinceEpoch"]
+- !private ["SQ", "oid"]
+- !private ["SQ", "timestamp"]
+- !private ["SQ", "withUnsafePointer"]
+- ["SQ", "writeToCurrentPosition"]
+- !private ["s27ExpressibleByBooleanLiteralP", "bson_iter_overwrite_bool"]
+- ["s27ExpressibleByBooleanLiteralP", "writeToCurrentPosition"]
+- !private ["s25ExpressibleByFloatLiteralP", "bson_iter_overwrite_double"]
+- ["s25ExpressibleByFloatLiteralP", "writeToCurrentPosition"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bson_iter_overwrite_double"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bson_iter_overwrite_int32"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bson_iter_overwrite_int64"]
+- ["s27ExpressibleByIntegerLiteralP", "writeToCurrentPosition"]
+- !private ["s17FixedWidthIntegerP", "bson_iter_overwrite_int32"]
+- !private ["s17FixedWidthIntegerP", "bson_iter_overwrite_int64"]
+- ["s17FixedWidthIntegerP", "writeToCurrentPosition"]
+- !private ["SF", "bson_iter_overwrite_double"]
+- ["SF", "writeToCurrentPosition"]
+- !private ["SH", "bson_iter_overwrite_bool"]
+- !private ["SH", "bson_iter_overwrite_date_time"]
+- !private ["SH", "bson_iter_overwrite_decimal128"]
+- !private ["SH", "bson_iter_overwrite_double"]
+- !private ["SH", "bson_iter_overwrite_int32"]
+- !private ["SH", "bson_iter_overwrite_int64"]
+- !private ["SH", "bson_iter_overwrite_oid"]
+- !private ["SH", "bson_iter_overwrite_timestamp"]
+- !private ["SH", "decimal128"]
+- !private ["SH", "increment"]
+- !private ["SH", "msSinceEpoch"]
+- !private ["SH", "oid"]
+- !private ["SH", "timestamp"]
+- !private ["SH", "withUnsafePointer"]
+- ["SH", "writeToCurrentPosition"]
+- ["s5Int32V", "DocumentIterator"]
+- !private ["s5Int32V", "bson_iter_overwrite_int32"]
+- ["s5Int32V", "deinit"]
+- ["s5Int32V", "writeToCurrentPosition"]
+- ["s5Int64V", "DocumentIterator"]
+- !private ["s5Int64V", "bson_iter_overwrite_int64"]
+- ["s5Int64V", "deinit"]
+- ["s5Int64V", "writeToCurrentPosition"]
+- !private ["St", "withMutableBSONIterPointer"]
+- !private ["s25LosslessStringConvertibleP", "bson_iter_overwrite_bool"]
+- !private ["s25LosslessStringConvertibleP", "bson_iter_overwrite_double"]
+- !private ["s25LosslessStringConvertibleP", "bson_iter_overwrite_int32"]
+- !private ["s25LosslessStringConvertibleP", "bson_iter_overwrite_int64"]
+- ["s25LosslessStringConvertibleP", "writeToCurrentPosition"]
+- !private ["Sj", "bson_iter_overwrite_double"]
+- !private ["Sj", "bson_iter_overwrite_int32"]
+- !private ["Sj", "bson_iter_overwrite_int64"]
+- ["Sj", "writeToCurrentPosition"]
+- ["10MongoSwift8ObjectIdV", "DocumentIterator"]
+- !private ["10MongoSwift8ObjectIdV", "bson_iter_overwrite_oid"]
+- ["10MongoSwift8ObjectIdV", "deinit"]
+- !private ["10MongoSwift8ObjectIdV", "oid"]
+- !private ["10MongoSwift8ObjectIdV", "withUnsafePointer"]
+- ["10MongoSwift8ObjectIdV", "writeToCurrentPosition"]
+- ["10MongoSwift12OverwritableP", "DocumentIterator"]
+- ["10MongoSwift12OverwritableP", ""]
+- !private ["10MongoSwift12OverwritableP", "bson_iter_overwrite_bool"]
+- !private ["10MongoSwift12OverwritableP", "bson_iter_overwrite_date_time"]
+- !private ["10MongoSwift12OverwritableP", "bson_iter_overwrite_decimal128"]
+- !private ["10MongoSwift12OverwritableP", "bson_iter_overwrite_double"]
+- !private ["10MongoSwift12OverwritableP", "bson_iter_overwrite_int32"]
+- !private ["10MongoSwift12OverwritableP", "bson_iter_overwrite_int64"]
+- !private ["10MongoSwift12OverwritableP", "bson_iter_overwrite_oid"]
+- !private ["10MongoSwift12OverwritableP", "bson_iter_overwrite_timestamp"]
+- !private ["10MongoSwift12OverwritableP", "decimal128"]
+- !private ["10MongoSwift12OverwritableP", "increment"]
+- !private ["10MongoSwift12OverwritableP", "msSinceEpoch"]
+- !private ["10MongoSwift12OverwritableP", "oid"]
+- !private ["10MongoSwift12OverwritableP", "timestamp"]
+- !private ["10MongoSwift12OverwritableP", "withUnsafePointer"]
+- ["10MongoSwift12OverwritableP", "writeToCurrentPosition"]
+- !private ["10Foundation20ReferenceConvertibleP", "bson_iter_overwrite_date_time"]
+- !private ["10Foundation20ReferenceConvertibleP", "msSinceEpoch"]
+- ["10Foundation20ReferenceConvertibleP", "writeToCurrentPosition"]
+- !private ["s10SIMDScalarP", "bson_iter_overwrite_double"]
+- !private ["s10SIMDScalarP", "bson_iter_overwrite_int32"]
+- !private ["s10SIMDScalarP", "bson_iter_overwrite_int64"]
+- ["s10SIMDScalarP", "writeToCurrentPosition"]
+- !private ["SZ", "bson_iter_overwrite_int32"]
+- !private ["SZ", "bson_iter_overwrite_int64"]
+- ["SZ", "writeToCurrentPosition"]
+- !private ["s13SignedNumericP", "bson_iter_overwrite_double"]
+- !private ["s13SignedNumericP", "bson_iter_overwrite_int32"]
+- !private ["s13SignedNumericP", "bson_iter_overwrite_int64"]
+- ["s13SignedNumericP", "writeToCurrentPosition"]
+- !private ["Sx", "bson_iter_overwrite_double"]
+- !private ["Sx", "bson_iter_overwrite_int32"]
+- !private ["Sx", "bson_iter_overwrite_int64"]
+- ["Sx", "writeToCurrentPosition"]
+- !private ["s20TextOutputStreamableP", "bson_iter_overwrite_double"]
+- ["s20TextOutputStreamableP", "writeToCurrentPosition"]
+- ["10MongoSwift9TimestampV", "DocumentIterator"]
+- !private ["10MongoSwift9TimestampV", "bson_iter_overwrite_timestamp"]
+- ["10MongoSwift9TimestampV", "deinit"]
+- !private ["10MongoSwift9TimestampV", "increment"]
+- !private ["10MongoSwift9TimestampV", "timestamp"]
+- ["10MongoSwift9TimestampV", "writeToCurrentPosition"]
+- !private ["s15_CVarArgAlignedP", "bson_iter_overwrite_double"]
+- !private ["s15_CVarArgAlignedP", "bson_iter_overwrite_int64"]
+- ["s15_CVarArgAlignedP", "writeToCurrentPosition"]
+- !private ["s22_CVarArgPassedAsDoubleP", "bson_iter_overwrite_double"]
+- ["s22_CVarArgPassedAsDoubleP", "writeToCurrentPosition"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "bson_iter_overwrite_bool"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "bson_iter_overwrite_date_time"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "bson_iter_overwrite_double"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "bson_iter_overwrite_int32"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "bson_iter_overwrite_int64"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "msSinceEpoch"]
+- ["s30_CustomPlaygroundQuickLookableP", "writeToCurrentPosition"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "bson_iter_overwrite_bool"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "writeToCurrentPosition"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "bson_iter_overwrite_double"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "writeToCurrentPosition"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "bson_iter_overwrite_double"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "bson_iter_overwrite_int32"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "bson_iter_overwrite_int64"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "writeToCurrentPosition"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "bson_iter_overwrite_double"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "bson_iter_overwrite_int32"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "bson_iter_overwrite_int64"]
+- ["s35_HasCustomAnyHashableRepresentationP", "writeToCurrentPosition"]
+- !private ["s21_ObjectiveCBridgeableP", "bson_iter_overwrite_bool"]
+- !private ["s21_ObjectiveCBridgeableP", "bson_iter_overwrite_date_time"]
+- !private ["s21_ObjectiveCBridgeableP", "bson_iter_overwrite_double"]
+- !private ["s21_ObjectiveCBridgeableP", "bson_iter_overwrite_int32"]
+- !private ["s21_ObjectiveCBridgeableP", "bson_iter_overwrite_int64"]
+- !private ["s21_ObjectiveCBridgeableP", "msSinceEpoch"]
+- ["s21_ObjectiveCBridgeableP", "writeToCurrentPosition"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "10MongoSwift9BSONValueP"
+- "SB"
+- "Sz"
+- "Sb"
+- "s7CVarArgP"
+- "10MongoSwift13CodableNumberP"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DateV"
+- "10MongoSwift10Decimal128V"
+- "Se"
+- !private "10MongoSwift16DocumentIteratorC"
+- "Sd"
+- "SE"
+- "SQ"
+- "s27ExpressibleByBooleanLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s17FixedWidthIntegerP"
+- "SF"
+- "SH"
+- "s5Int32V"
+- "s5Int64V"
+- !private "St"
+- "s25LosslessStringConvertibleP"
+- "Sj"
+- "10MongoSwift8ObjectIdV"
+- "10MongoSwift12OverwritableP"
+- "10Foundation20ReferenceConvertibleP"
+- "s10SIMDScalarP"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "s20TextOutputStreamableP"
+- "10MongoSwift9TimestampV"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-mongoc/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-bson/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c42df77bdfe7709f1d4943b39f80de5a"

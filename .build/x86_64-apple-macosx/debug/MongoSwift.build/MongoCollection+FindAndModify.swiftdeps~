@@ -1,0 +1,289 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ReturnDocument"
+- "FindAndModifyOptionsConvertible"
+- "FindOneAndDeleteOptions"
+- "FindOneAndReplaceOptions"
+- "FindOneAndUpdateOptions"
+provides-nominal:
+- "10MongoSwift14ReturnDocumentO"
+- "10MongoSwift31FindAndModifyOptionsConvertibleP"
+- "10MongoSwift23FindOneAndDeleteOptionsV"
+- "10MongoSwift24FindOneAndReplaceOptionsV"
+- "10MongoSwift23FindOneAndUpdateOptionsV"
+provides-member:
+- ["10MongoSwift0A10CollectionV", ""]
+- ["10MongoSwift14ReturnDocumentO", ""]
+- ["10MongoSwift31FindAndModifyOptionsConvertibleP", ""]
+- ["10MongoSwift23FindOneAndDeleteOptionsV", ""]
+- ["10MongoSwift24FindOneAndReplaceOptionsV", ""]
+- ["10MongoSwift23FindOneAndUpdateOptionsV", ""]
+- ["10MongoSwift0A10CollectionV", "findOneAndDelete"]
+- ["10MongoSwift0A10CollectionV", "findOneAndReplace"]
+- ["10MongoSwift0A10CollectionV", "findOneAndUpdate"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "ClientSession"
+- "Decodable"
+- "Document"
+- !private "FindAndModifyOperation"
+- "FindAndModifyOptions"
+- "FindAndModifyOptionsConvertible"
+- "FindOneAndDeleteOptions"
+- "FindOneAndReplaceOptions"
+- "FindOneAndUpdateOptions"
+- "Int64"
+- "MongoCollection"
+- "ReturnDocument"
+- "String"
+- "WriteConcern"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["10MongoSwift11BSONEncoderC", "encode"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", "=="]
+- !private ["Se", "FindAndModifyOptions"]
+- ["Se", "RawValue"]
+- ["Se", ""]
+- ["Se", "_Default_RawValue"]
+- !private ["Se", "_findStringSwitchCase"]
+- ["Se", "_rawHashValue"]
+- !private ["Se", "arrayFilters"]
+- ["Se", "asFindAndModifyOptions"]
+- !private ["Se", "bypassDocumentValidation"]
+- !private ["Se", "collation"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- ["Se", "init"]
+- !private ["Se", "maxTimeMS"]
+- !private ["Se", "projection"]
+- ["Se", "rawValue"]
+- !private ["Se", "returnDocument"]
+- !private ["Se", "sort"]
+- !private ["Se", "upsert"]
+- !private ["Se", "writeConcern"]
+- !private ["s7DecoderP", "container"]
+- ["10MongoSwift8DocumentV", "deinit"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "executeOperation"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- !private ["10MongoSwift22FindAndModifyOperationV", "deinit"]
+- !private ["10MongoSwift22FindAndModifyOperationV", "init"]
+- !private ["10MongoSwift20FindAndModifyOptionsC", "init"]
+- ["10MongoSwift31FindAndModifyOptionsConvertibleP", "FindAndModifyOptions"]
+- ["10MongoSwift31FindAndModifyOptionsConvertibleP", ""]
+- !private ["10MongoSwift31FindAndModifyOptionsConvertibleP", "arrayFilters"]
+- ["10MongoSwift31FindAndModifyOptionsConvertibleP", "asFindAndModifyOptions"]
+- !private ["10MongoSwift31FindAndModifyOptionsConvertibleP", "bypassDocumentValidation"]
+- !private ["10MongoSwift31FindAndModifyOptionsConvertibleP", "collation"]
+- ["10MongoSwift31FindAndModifyOptionsConvertibleP", "init"]
+- !private ["10MongoSwift31FindAndModifyOptionsConvertibleP", "maxTimeMS"]
+- !private ["10MongoSwift31FindAndModifyOptionsConvertibleP", "projection"]
+- !private ["10MongoSwift31FindAndModifyOptionsConvertibleP", "returnDocument"]
+- !private ["10MongoSwift31FindAndModifyOptionsConvertibleP", "sort"]
+- !private ["10MongoSwift31FindAndModifyOptionsConvertibleP", "upsert"]
+- !private ["10MongoSwift31FindAndModifyOptionsConvertibleP", "writeConcern"]
+- ["10MongoSwift23FindOneAndDeleteOptionsV", "Document"]
+- ["10MongoSwift23FindOneAndDeleteOptionsV", "FindAndModifyOptions"]
+- ["10MongoSwift23FindOneAndDeleteOptionsV", "Int64"]
+- ["10MongoSwift23FindOneAndDeleteOptionsV", "WriteConcern"]
+- ["10MongoSwift23FindOneAndDeleteOptionsV", "asFindAndModifyOptions"]
+- ["10MongoSwift23FindOneAndDeleteOptionsV", "collation"]
+- ["10MongoSwift23FindOneAndDeleteOptionsV", "deinit"]
+- ["10MongoSwift23FindOneAndDeleteOptionsV", "init"]
+- ["10MongoSwift23FindOneAndDeleteOptionsV", "maxTimeMS"]
+- ["10MongoSwift23FindOneAndDeleteOptionsV", "projection"]
+- ["10MongoSwift23FindOneAndDeleteOptionsV", "sort"]
+- ["10MongoSwift23FindOneAndDeleteOptionsV", "writeConcern"]
+- ["10MongoSwift24FindOneAndReplaceOptionsV", "Bool"]
+- ["10MongoSwift24FindOneAndReplaceOptionsV", "Document"]
+- ["10MongoSwift24FindOneAndReplaceOptionsV", "FindAndModifyOptions"]
+- ["10MongoSwift24FindOneAndReplaceOptionsV", "Int64"]
+- ["10MongoSwift24FindOneAndReplaceOptionsV", "ReturnDocument"]
+- ["10MongoSwift24FindOneAndReplaceOptionsV", "WriteConcern"]
+- ["10MongoSwift24FindOneAndReplaceOptionsV", "asFindAndModifyOptions"]
+- ["10MongoSwift24FindOneAndReplaceOptionsV", "bypassDocumentValidation"]
+- ["10MongoSwift24FindOneAndReplaceOptionsV", "collation"]
+- ["10MongoSwift24FindOneAndReplaceOptionsV", "deinit"]
+- ["10MongoSwift24FindOneAndReplaceOptionsV", "init"]
+- ["10MongoSwift24FindOneAndReplaceOptionsV", "maxTimeMS"]
+- ["10MongoSwift24FindOneAndReplaceOptionsV", "projection"]
+- ["10MongoSwift24FindOneAndReplaceOptionsV", "returnDocument"]
+- ["10MongoSwift24FindOneAndReplaceOptionsV", "sort"]
+- ["10MongoSwift24FindOneAndReplaceOptionsV", "upsert"]
+- ["10MongoSwift24FindOneAndReplaceOptionsV", "writeConcern"]
+- ["10MongoSwift23FindOneAndUpdateOptionsV", "Bool"]
+- ["10MongoSwift23FindOneAndUpdateOptionsV", "Document"]
+- ["10MongoSwift23FindOneAndUpdateOptionsV", "FindAndModifyOptions"]
+- ["10MongoSwift23FindOneAndUpdateOptionsV", "Int64"]
+- ["10MongoSwift23FindOneAndUpdateOptionsV", "ReturnDocument"]
+- ["10MongoSwift23FindOneAndUpdateOptionsV", "WriteConcern"]
+- ["10MongoSwift23FindOneAndUpdateOptionsV", "arrayFilters"]
+- ["10MongoSwift23FindOneAndUpdateOptionsV", "asFindAndModifyOptions"]
+- ["10MongoSwift23FindOneAndUpdateOptionsV", "bypassDocumentValidation"]
+- ["10MongoSwift23FindOneAndUpdateOptionsV", "collation"]
+- ["10MongoSwift23FindOneAndUpdateOptionsV", "deinit"]
+- ["10MongoSwift23FindOneAndUpdateOptionsV", "init"]
+- ["10MongoSwift23FindOneAndUpdateOptionsV", "maxTimeMS"]
+- ["10MongoSwift23FindOneAndUpdateOptionsV", "projection"]
+- ["10MongoSwift23FindOneAndUpdateOptionsV", "returnDocument"]
+- ["10MongoSwift23FindOneAndUpdateOptionsV", "sort"]
+- ["10MongoSwift23FindOneAndUpdateOptionsV", "upsert"]
+- ["10MongoSwift23FindOneAndUpdateOptionsV", "writeConcern"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["10MongoSwift0A6ClientC", "executeOperation"]
+- ["10MongoSwift0A10CollectionV", "ClientSession"]
+- ["10MongoSwift0A10CollectionV", "CollectionType"]
+- ["10MongoSwift0A10CollectionV", "Document"]
+- !private ["10MongoSwift0A10CollectionV", "FindAndModifyOperation"]
+- ["10MongoSwift0A10CollectionV", "FindAndModifyOptionsConvertible"]
+- ["10MongoSwift0A10CollectionV", "FindOneAndDeleteOptions"]
+- ["10MongoSwift0A10CollectionV", "FindOneAndReplaceOptions"]
+- ["10MongoSwift0A10CollectionV", "FindOneAndUpdateOptions"]
+- !private ["10MongoSwift0A10CollectionV", "_client"]
+- !private ["10MongoSwift0A10CollectionV", "encoder"]
+- !private ["10MongoSwift0A10CollectionV", "findAndModify"]
+- ["10MongoSwift0A10CollectionV", "findOneAndDelete"]
+- ["10MongoSwift0A10CollectionV", "findOneAndReplace"]
+- ["10MongoSwift0A10CollectionV", "findOneAndUpdate"]
+- !private ["10MongoSwift9OperationP", "init"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- ["10MongoSwift14ReturnDocumentO", "=="]
+- ["10MongoSwift14ReturnDocumentO", "RawValue"]
+- ["10MongoSwift14ReturnDocumentO", "_Default_RawValue"]
+- !private ["10MongoSwift14ReturnDocumentO", "_findStringSwitchCase"]
+- ["10MongoSwift14ReturnDocumentO", "_rawHashValue"]
+- ["10MongoSwift14ReturnDocumentO", "after"]
+- ["10MongoSwift14ReturnDocumentO", "before"]
+- ["10MongoSwift14ReturnDocumentO", "deinit"]
+- ["10MongoSwift14ReturnDocumentO", "hash"]
+- ["10MongoSwift14ReturnDocumentO", "hashValue"]
+- ["10MongoSwift14ReturnDocumentO", "init"]
+- ["10MongoSwift14ReturnDocumentO", "rawValue"]
+- ["10MongoSwift12WriteConcernV", "deinit"]
+depends-nominal:
+- !private "10MongoSwift11BSONEncoderC"
+- "s9CodingKeyP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "10MongoSwift8DocumentV"
+- "SQ"
+- !private "10MongoSwift22FindAndModifyOperationV"
+- !private "10MongoSwift20FindAndModifyOptionsC"
+- "10MongoSwift31FindAndModifyOptionsConvertibleP"
+- "10MongoSwift23FindOneAndDeleteOptionsV"
+- "10MongoSwift24FindOneAndReplaceOptionsV"
+- "10MongoSwift23FindOneAndUpdateOptionsV"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "10MongoSwift0A6ClientC"
+- "10MongoSwift0A10CollectionV"
+- !private "10MongoSwift9OperationP"
+- "SY"
+- "10MongoSwift14ReturnDocumentO"
+- "10MongoSwift12WriteConcernV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-mongoc/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/saurav/Documents/VaporEx/.build/checkouts/swift-bson/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f2c67daabfa09045ed16f7363752e002"
